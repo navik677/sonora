@@ -1,0 +1,1659 @@
+# Turkish translation for Audacious
+# Copyright (C) Audacious translators
+# This file is distributed under the same license as the Audacious package.
+#
+# Translators:
+# Önder Yıldırım <onder.y@msn.com>, 2013
+# aamet <aaydin159@gmail.com>, 2012
+# aamet <aaydin159@gmail.com>, 2012
+# abc Def <hdogan1974@gmail.com>, 2020
+# Imnune <alikoc@hush.ai>, 2012
+# Ali Orhun Akkirman <the.alorak@gmail.com>, 2013
+# hsngrms <dead-bodies-everywhere@hotmail.com>, 2012
+# Dragon Blogger <dodokur@gmail.com>, 2018
+# Dragon Blogger <dodokur@gmail.com>, 2016
+# Emre FIRAT <emrefirat93@gmail.com>, 2013
+# Emin Tufan Çetin <etcetin@gmail.com>, 2016
+# Emre FIRAT <emrefirat93@gmail.com>, 2013
+# Emre Sinan, 2025
+# kursemaster, 2022
+# hsngrms <dead-bodies-everywhere@hotmail.com>, 2012
+# Imnune <alikoc@hush.ai>, 2012
+# irem harmancı <kodadiirem@gmail.com>, 2013
+# irem harmancı <kodadiirem@gmail.com>, 2013
+# maruf1 <turk.etna@gmail.com>, 2013
+# bf56122ea16b546d25256b9ea2838cfd_e46ba62, 2013
+# Murat Senel <muratasenel@gmail.com>, 2007
+# Murat Şenel <muratasenel@gmail.com>, 2007
+# Zekeriya Cihan <zekeriya.cihan@gmail.com>, 2013
+# Önder Yıldırım <onder.y@msn.com>, 2013
+# b83946de5835331df42b9ffcc43e6a33_05e65cd <73a30e0a984b2291d4915f37112ad292_814039>, 2023
+# tarkan255 <t.oguzman@hotmail.com>, 2012
+# bf56122ea16b546d25256b9ea2838cfd_e46ba62, 2013
+# tarkan255 <t.oguzman@hotmail.com>, 2012
+# Volkan Gezer <volkangezer@gmail.com>, 2014-2015
+# 3909d6133b383976bde86621da215840_711025d, 2025
+# Yaşar Çiv <yasarciv@protonmail.com>, 2018
+# Yaşar Çiv <yasarciv@protonmail.com>, 2020
+# Zekeriya Cihan <zekeriya.cihan@gmail.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Audacious\n"
+"Report-Msgid-Bugs-To: https://github.com/audacious-media-player/audacious/"
+"issues\n"
+"POT-Creation-Date: 2026-05-09 21:25+0200\n"
+"PO-Revision-Date: 2011-10-10 15:11+0000\n"
+"Last-Translator: Emre Sinan, 2025\n"
+"Language-Team: Turkish (http://app.transifex.com/audacious/audacious/"
+"language/tr/)\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/audacious/main.cc:74
+msgid "Show command-line help"
+msgstr "Komut satırı yardımını göster"
+
+#: src/audacious/main.cc:75
+msgid "Show version"
+msgstr "Sürüm bilgisini göster"
+
+#: src/audacious/main.cc:76
+msgid "Start playback"
+msgstr "Oynatmayı başlat"
+
+#: src/audacious/main.cc:78
+msgid "Pause playback, resume if already paused"
+msgstr ""
+
+#: src/audacious/main.cc:80
+msgid "Pause if playing, play otherwise"
+msgstr "Duraklat veya devam et"
+
+#: src/audacious/main.cc:81
+msgid "Stop playback"
+msgstr "Oynatmayı durdur"
+
+#: src/audacious/main.cc:82
+msgid "Skip to previous song"
+msgstr "Önceki şarkıya geç"
+
+#: src/audacious/main.cc:83
+msgid "Skip to next song"
+msgstr "Sonraki şarkıya geç"
+
+#: src/audacious/main.cc:84
+msgid "Add files to the playlist"
+msgstr "Çalma listesine dosya ekle"
+
+#: src/audacious/main.cc:86
+msgid "Add files to a temporary playlist"
+msgstr "Dosyaları geçici bir listeye ekle"
+
+#: src/audacious/main.cc:87
+msgid "Display the main window"
+msgstr "Ana pencereyi göster"
+
+#: src/audacious/main.cc:89
+msgid "Display the jump-to-song window"
+msgstr "Şarkıya atla penceresini görüntüle"
+
+#: src/audacious/main.cc:91
+msgid "Start without a graphical interface"
+msgstr "Grafiksel arayüz olmadan başla"
+
+#: src/audacious/main.cc:93
+msgid "Quit on playback stop"
+msgstr "Kayıttan yürütmeyi durdur ve çık"
+
+#: src/audacious/main.cc:95
+msgid "Print debugging messages (may be used twice)"
+msgstr "Hata ayıklama iletilerini yazdır (iki kez kullanılabilir)"
+
+#: src/audacious/main.cc:97
+msgid "Run in GTK mode"
+msgstr "GTK modunda çalıştır"
+
+#: src/audacious/main.cc:98
+msgid "Run in Qt mode"
+msgstr "Qt kipinde çalış"
+
+#: src/audacious/main.cc:155
+#, c-format
+msgid "Unknown option: %s\n"
+msgstr "Bilinmeyen seçenek: %s\n"
+
+#: src/audacious/main.cc:177
+#, c-format
+msgid "Unknown option: -%c\n"
+msgstr "Bilinmeyen seçenek: -%c\n"
+
+#: src/audacious/main.cc:207
+msgid ""
+"Usage: audacious [OPTION] ... [FILE] ...\n"
+"\n"
+msgstr ""
+"Kullanım: audacious [SEÇENEK] ... [DOSYA] ...\n"
+"\n"
+
+#: src/audacious/main.cc:209
+msgid "Select instance to run/control"
+msgstr "Çalıştırılacak/kontrol edilecek örneği seçin"
+
+#: src/audacious/main.cc:392 src/libaudqt/audqt.cc:151
+msgid "Audacious"
+msgstr "Audacious"
+
+#: src/libaudcore/adder.cc:96
+#, c-format
+msgid "%d file found"
+msgid_plural "%d files found"
+msgstr[0] "%d dosya bulundu"
+msgstr[1] "%d dosya bulundu"
+
+#: src/libaudcore/adder.cc:320 src/libaudcore/adder.cc:404
+#, c-format
+msgid ""
+"Error reading %s:\n"
+"%s"
+msgstr ""
+"%s okunurken hata:\n"
+"%s"
+
+#: src/libaudcore/adder.cc:456
+msgid "No files found."
+msgstr "Dosya bulunamadı."
+
+#: src/libaudcore/adder.cc:478 src/libaudcore/playlist.cc:81
+msgid "New Playlist"
+msgstr "Yeni Çalma Listesi"
+
+#: src/libaudcore/audstrings.cc:664 src/libaudcore/tuple.cc:562
+msgid "Standard input"
+msgstr "Standart giriş"
+
+#: src/libaudcore/audstrings.cc:666
+#, c-format
+msgid "Audio CD, track %s"
+msgstr "Ses CD'si, parça %s"
+
+#: src/libaudcore/audstrings.cc:670 src/libaudcore/tuple.cc:538
+msgid "(character encoding error)"
+msgstr "(karakter kodlama hatası)"
+
+#: src/libaudcore/drct.cc:96
+msgid ""
+"Stream recording must be configured in Audio Settings before it can be used."
+msgstr "Akış kaydı, kullanılmadan önce Ses Ayarları'nda yapılandırılmalıdır."
+
+#: src/libaudcore/output.cc:288
+msgid "Error opening output stream"
+msgstr "Çıkış akışı açılırken hata"
+
+#: src/libaudcore/output.cc:340
+msgid "Error recording output stream"
+msgstr "Çıkış akışı kaydedilirken hata oluştu"
+
+#: src/libaudcore/playback.cc:378
+#, c-format
+msgid ""
+"Error playing %s:\n"
+"%s"
+msgstr ""
+"%s açılırken hata:\n"
+"%s"
+
+#: src/libaudcore/playback.cc:509
+msgid "Invalid audio format"
+msgstr "Geçersiz ses biçimi"
+
+#: src/libaudcore/playlist.cc:82
+msgid "Now Playing"
+msgstr "Şimdi Çalınıyor"
+
+#: src/libaudcore/playlist-files.cc:73 src/libaudcore/playlist-files.cc:153
+#: src/libaudgui/infowin.cc:538 src/libaudqt/infowin-qt.cc:183
+#, c-format
+msgid ""
+"Error opening %s:\n"
+"%s"
+msgstr ""
+"%s açılırken hata:\n"
+"%s"
+
+#: src/libaudcore/playlist-files.cc:87 src/libaudqt/eq-preset-qt.cc:283
+#, c-format
+msgid "Error loading %s."
+msgstr "%s yüklenirken hata."
+
+#: src/libaudcore/playlist-files.cc:89
+#, c-format
+msgid "Cannot load %s: unsupported file name extension."
+msgstr "%s yüklenemiyor: bilinmeyen dosya uzantısı."
+
+#: src/libaudcore/playlist-files.cc:161 src/libaudqt/eq-preset-qt.cc:319
+#, c-format
+msgid "Error saving %s."
+msgstr "%s kaydedilirken hata oluştu."
+
+#: src/libaudcore/playlist-files.cc:167
+#, c-format
+msgid "Cannot save %s: unsupported file name extension."
+msgstr "%s kaydedilemiyor: bilinmeyen dosya uzantısı."
+
+#: src/libaudcore/probe.cc:55
+msgid "Error loading plugin"
+msgstr "Eklenti yüklenirken hata"
+
+#: src/libaudcore/probe.cc:180
+msgid "Seek error"
+msgstr "Arama hatası"
+
+#: src/libaudcore/probe.cc:188
+msgid ""
+"The file format could not be determined. The format may be unsupported, or a "
+"necessary plugin may not be installed/enabled."
+msgstr ""
+"Dosya biçimi belirlenemedi. Biçim desteklenmiyor ya da gerekli bir eklenti "
+"eksik olabilir."
+
+#: src/libaudcore/probe.cc:229
+msgid ""
+"The file could not be decoded. It may be invalid, corrupt, or in an "
+"unsupported format."
+msgstr ""
+"Dosya çözülemedi; geçersiz, bozuk veya desteklenmeyen bir biçimde olabilir."
+
+#: src/libaudcore/tuple.cc:596
+msgid "Mono"
+msgstr "Mono"
+
+#: src/libaudcore/tuple.cc:598
+msgid "Stereo"
+msgstr "Stereo"
+
+#: src/libaudcore/tuple.cc:601
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanal"
+msgstr[1] "%d kanal"
+
+#: src/libaudcore/tuple.cc:819
+msgid "Audio CD"
+msgstr "Ses CD'si"
+
+#: src/libaudcore/tuple.cc:903
+#, c-format
+msgid "Track %d"
+msgstr "Parça %d"
+
+#: src/libaudcore/tuple.cc:909
+msgid "(unknown title)"
+msgstr "(bilinmeyen başlık)"
+
+#: src/libaudcore/vfs.cc:79
+msgid "Unknown URI scheme"
+msgstr "Bilinmeyen URI şeması"
+
+#: src/libaudcore/vfs_local.cc:86 src/libaudcore/vfs_local.cc:330
+#: src/libaudcore/vfs_local.cc:386
+msgid "Invalid file name"
+msgstr "Geçersiz dosya adı"
+
+#: src/libaudcore/vfs_local.cc:134
+msgid "Invalid access mode"
+msgstr "Geçersiz erişim kipi"
+
+#: src/libaudgui/about.cc:37 src/libaudqt/about-qt.cc:37
+msgid "Credits"
+msgstr "Katkıda bulunanlar"
+
+#: src/libaudgui/about.cc:37 src/libaudqt/about-qt.cc:37
+msgid "License"
+msgstr "Lisans"
+
+#: src/libaudgui/about.cc:73 src/libaudqt/about-qt.cc:64
+msgid "About Audacious"
+msgstr "Audacious Hakkında"
+
+#: src/libaudgui/confirm.cc:33 src/libaudgui/jump-to-time.cc:48
+#: src/libaudgui/playlists.cc:93 src/libaudgui/playlists.cc:190
+#: src/libaudgui/plugin-prefs.cc:162 src/libaudgui/url-opener.cc:105
+#: src/libaudqt/playlist-management.cc:42
+#: src/libaudqt/playlist-management.cc:60 src/libaudqt/prefs-plugin.cc:141
+#: src/libaudqt/url-opener-qt.cc:81
+msgid "_Cancel"
+msgstr "_İptal"
+
+#: src/libaudgui/confirm.cc:48 src/libaudqt/playlist-management.cc:58
+msgid "_Don’t ask again"
+msgstr "_Bir daha sorma"
+
+#: src/libaudgui/confirm.cc:67 src/libaudqt/playlist-management.cc:66
+#, c-format
+msgid "Do you want to permanently remove “%s”?"
+msgstr "\"%s\" ögesini kalıcı olarak silmek istiyor musunuz?"
+
+#: src/libaudgui/confirm.cc:70 src/libaudqt/playlist-management.cc:59
+msgid "_Remove"
+msgstr "_Kaldır"
+
+#: src/libaudgui/confirm.cc:73 src/libaudqt/playlist-management.cc:63
+msgid "Remove Playlist"
+msgstr "Çalma Listesini Kaldır"
+
+#: src/libaudgui/confirm.cc:92 src/libaudqt/playlist-management.cc:40
+msgid "What would you like to call this playlist?"
+msgstr "Bu dosya adına ne ad vermek istersiniz?"
+
+#: src/libaudgui/confirm.cc:93 src/libaudqt/playlist-management.cc:41
+msgid "_Rename"
+msgstr "_Yeniden Adlandır"
+
+#: src/libaudgui/confirm.cc:94 src/libaudqt/playlist-management.cc:38
+msgid "Rename Playlist"
+msgstr "Listeyi Yeniden Adlandır"
+
+#: src/libaudgui/eq-preset.cc:154
+msgid "Please select one preset to export."
+msgstr "Lütfen dışa aktarmak için bir ön ayar seçin."
+
+#: src/libaudgui/eq-preset.cc:257 src/libaudgui/eq-preset.cc:262
+msgid "Preset File ..."
+msgstr "Önayar Dosyası ..."
+
+#: src/libaudgui/eq-preset.cc:258 src/libaudgui/eq-preset.cc:263
+msgid "EQF File ..."
+msgstr "EQF Dosyası ..."
+
+#: src/libaudgui/eq-preset.cc:267 src/libaudqt/eq-preset-qt.cc:339
+#: src/libaudqt/fileopener.cc:110
+msgid "Import"
+msgstr "İçe aktar"
+
+#: src/libaudgui/eq-preset.cc:268 src/libaudqt/eq-preset-qt.cc:342
+#: src/libaudqt/fileopener.cc:110
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: src/libaudgui/eq-preset.cc:283 src/libaudqt/eq-preset-qt.cc:405
+msgid "Equalizer Presets"
+msgstr "Dengeleyici Önayarları"
+
+#: src/libaudgui/eq-preset.cc:306 src/libaudqt/eq-preset-qt.cc:330
+msgid "Save Preset"
+msgstr "Önayarı Kaydet"
+
+#: src/libaudgui/eq-preset.cc:328
+msgid "Delete Selected"
+msgstr "Seçileni Sil"
+
+#: src/libaudgui/eq-preset.cc:332
+msgid "Revert Changes"
+msgstr "Değişiklikleri Geri al"
+
+#: src/libaudgui/equalizer.cc:46 src/libaudqt/equalizer-qt.cc:120
+msgid "_Enable"
+msgstr "_Etkinleştir"
+
+#: src/libaudgui/equalizer.cc:128 src/libaudqt/equalizer-qt.cc:123
+msgid "31 Hz"
+msgstr "31 Hz"
+
+#: src/libaudgui/equalizer.cc:128 src/libaudqt/equalizer-qt.cc:123
+msgid "63 Hz"
+msgstr "63 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:123
+msgid "125 Hz"
+msgstr "125 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:123
+msgid "250 Hz"
+msgstr "250 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:123
+msgid "500 Hz"
+msgstr "500 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:124
+msgid "1 kHz"
+msgstr "1 kHz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:124
+msgid "2 kHz"
+msgstr "2 kHz"
+
+#: src/libaudgui/equalizer.cc:130 src/libaudqt/equalizer-qt.cc:124
+msgid "4 kHz"
+msgstr "4 kHz"
+
+#: src/libaudgui/equalizer.cc:130 src/libaudqt/equalizer-qt.cc:124
+msgid "8 kHz"
+msgstr "8 kHz"
+
+#: src/libaudgui/equalizer.cc:130 src/libaudqt/equalizer-qt.cc:124
+msgid "16 kHz"
+msgstr "16 kHz"
+
+#: src/libaudgui/equalizer.cc:133 src/libaudqt/equalizer-qt.cc:210
+msgid "Equalizer"
+msgstr "Dengeleyici"
+
+#: src/libaudgui/equalizer.cc:148 src/libaudqt/equalizer-qt.cc:144
+msgid "Presets ..."
+msgstr "Önayarlar ..."
+
+#: src/libaudgui/equalizer.cc:152 src/libaudqt/equalizer-qt.cc:143
+msgid "Reset to Zero"
+msgstr "Sıfırla"
+
+#: src/libaudgui/equalizer.cc:159 src/libaudqt/equalizer-qt.cc:129
+msgid "Preamp"
+msgstr "Ön güçlendirme"
+
+#: src/libaudgui/file-opener.cc:79 src/libaudqt/fileopener.cc:105
+msgid "Open Files"
+msgstr "Dosyaları Aç"
+
+#: src/libaudgui/file-opener.cc:80 src/libaudgui/url-opener.cc:68
+#: src/libaudqt/url-opener-qt.cc:48
+msgid "_Open"
+msgstr "_Aç"
+
+#: src/libaudgui/file-opener.cc:82
+msgid "Close _dialog on open"
+msgstr "Açtıktan sonra _pencereyi kapat"
+
+#: src/libaudgui/file-opener.cc:87 src/libaudqt/fileopener.cc:105
+msgid "Add Files"
+msgstr "Dosyaları Ekle"
+
+#: src/libaudgui/file-opener.cc:88 src/libaudgui/url-opener.cc:74
+#: src/libaudqt/url-opener-qt.cc:54
+msgid "_Add"
+msgstr "_Ekle"
+
+#: src/libaudgui/file-opener.cc:90
+msgid "Close _dialog on add"
+msgstr "Ekledikten sonra _pencereyi kapat"
+
+#: src/libaudgui/file-opener.cc:139 src/libaudgui/infowin.cc:443
+#: src/libaudgui/jump-to-track.cc:324 src/libaudgui/plugin-prefs.cc:168
+#: src/libaudgui/prefs-window.cc:942 src/libaudgui/queue-manager.cc:195
+#: src/libaudgui/util.cc:355 src/libaudqt/audqt.cc:330
+#: src/libaudqt/infowin-qt.cc:93 src/libaudqt/log-inspector.cc:245
+#: src/libaudqt/prefs-plugin.cc:152 src/libaudqt/prefs-window-qt.cc:702
+#: src/libaudqt/song-window-qt.cc:376
+msgid "_Close"
+msgstr "_Kapat"
+
+#: src/libaudgui/infopopup.cc:216 src/libaudgui/infowin.cc:402
+#: src/libaudgui/prefs-window.cc:105 src/libaudqt/infopopup-qt.cc:95
+#: src/libaudqt/info-widget.cc:50 src/libaudqt/prefs-window-qt.cc:172
+#: src/libaudqt/queue-manager-qt.cc:128
+msgid "Title"
+msgstr "Başlık"
+
+#: src/libaudgui/infopopup.cc:217 src/libaudgui/infowin.cc:405
+#: src/libaudgui/prefs-window.cc:102 src/libaudqt/infopopup-qt.cc:97
+#: src/libaudqt/info-widget.cc:51 src/libaudqt/prefs-window-qt.cc:169
+msgid "Artist"
+msgstr "Sanatçı"
+
+#: src/libaudgui/infopopup.cc:218 src/libaudgui/infowin.cc:408
+#: src/libaudgui/prefs-window.cc:103 src/libaudgui/prefs-window.cc:151
+#: src/libaudqt/infopopup-qt.cc:99 src/libaudqt/info-widget.cc:52
+#: src/libaudqt/prefs-window-qt.cc:170 src/libaudqt/prefs-window-qt.cc:213
+msgid "Album"
+msgstr "Albüm"
+
+#: src/libaudgui/infopopup.cc:219 src/libaudgui/infowin.cc:418
+#: src/libaudgui/prefs-window.cc:107 src/libaudqt/infopopup-qt.cc:101
+#: src/libaudqt/info-widget.cc:55 src/libaudqt/prefs-window-qt.cc:174
+msgid "Genre"
+msgstr "Tür"
+
+#: src/libaudgui/infopopup.cc:220 src/libaudgui/infowin.cc:421
+#: src/libaudgui/prefs-window.cc:112 src/libaudqt/infopopup-qt.cc:103
+#: src/libaudqt/prefs-window-qt.cc:179
+msgid "Year"
+msgstr "Yıl"
+
+#: src/libaudgui/infopopup.cc:221 src/libaudgui/prefs-window.cc:150
+#: src/libaudqt/infopopup-qt.cc:105 src/libaudqt/prefs-window-qt.cc:212
+msgid "Track"
+msgstr "Parça"
+
+#: src/libaudgui/infopopup.cc:222 src/libaudqt/infopopup-qt.cc:107
+msgid "Disc"
+msgstr "Disk"
+
+#: src/libaudgui/infopopup.cc:223 src/libaudqt/infopopup-qt.cc:109
+#: src/libaudqt/info-widget.cc:68
+msgid "Length"
+msgstr "uzunluk"
+
+#: src/libaudgui/infowin.cc:51
+msgid "Format:"
+msgstr "Biçim:"
+
+#: src/libaudgui/infowin.cc:52
+msgid "Quality:"
+msgstr "Nitelik:"
+
+#: src/libaudgui/infowin.cc:53
+msgid "Bitrate:"
+msgstr "Bit oranı:"
+
+#: src/libaudgui/infowin.cc:87
+msgid "Acid Jazz"
+msgstr "Acid Jazz"
+
+#: src/libaudgui/infowin.cc:88
+msgid "Acid Rock"
+msgstr "Acid Rock"
+
+#: src/libaudgui/infowin.cc:89
+msgid "Ambient"
+msgstr "Çevre"
+
+#: src/libaudgui/infowin.cc:90
+msgid "Bebop"
+msgstr "Bebop"
+
+#: src/libaudgui/infowin.cc:91
+msgid "Bluegrass"
+msgstr "Bluegrass"
+
+#: src/libaudgui/infowin.cc:92
+msgid "Blues"
+msgstr "Blues"
+
+#: src/libaudgui/infowin.cc:93
+msgid "Chamber Music"
+msgstr "Oda müziği"
+
+#: src/libaudgui/infowin.cc:94
+msgid "Classical"
+msgstr "Klasik"
+
+#: src/libaudgui/infowin.cc:95
+msgid "Country"
+msgstr "Country"
+
+#: src/libaudgui/infowin.cc:96
+msgid "Death Metal"
+msgstr "Death Metal"
+
+#: src/libaudgui/infowin.cc:97
+msgid "Disco"
+msgstr "Disko"
+
+#: src/libaudgui/infowin.cc:98
+msgid "Easy Listening"
+msgstr "Kolay Dinleme"
+
+#: src/libaudgui/infowin.cc:99
+msgid "Folk"
+msgstr "Folk"
+
+#: src/libaudgui/infowin.cc:100
+msgid "Funk"
+msgstr "Funk"
+
+#: src/libaudgui/infowin.cc:101
+msgid "Gangsta Rap"
+msgstr "Gangsta Rap"
+
+#: src/libaudgui/infowin.cc:102
+msgid "Gospel"
+msgstr "Gospel"
+
+#: src/libaudgui/infowin.cc:103
+msgid "Grunge"
+msgstr "Grunge"
+
+#: src/libaudgui/infowin.cc:104
+msgid "Hard Rock"
+msgstr "Hard Rock"
+
+#: src/libaudgui/infowin.cc:105
+msgid "Heavy Metal"
+msgstr "Heavy Metal"
+
+#: src/libaudgui/infowin.cc:106
+msgid "Hip-hop"
+msgstr "Hip-hop"
+
+#: src/libaudgui/infowin.cc:107
+msgid "House"
+msgstr "House"
+
+#: src/libaudgui/infowin.cc:108
+msgid "Jazz"
+msgstr "Caz"
+
+#: src/libaudgui/infowin.cc:109
+msgid "Jungle"
+msgstr "Jungle"
+
+#: src/libaudgui/infowin.cc:110
+msgid "Metal"
+msgstr "Metal"
+
+#: src/libaudgui/infowin.cc:111
+msgid "New Age"
+msgstr "New Age"
+
+#: src/libaudgui/infowin.cc:112
+msgid "New Wave"
+msgstr "New Wave"
+
+#: src/libaudgui/infowin.cc:113
+msgid "Noise"
+msgstr "Noise"
+
+#: src/libaudgui/infowin.cc:114
+msgid "Pop"
+msgstr "Pop"
+
+#: src/libaudgui/infowin.cc:115
+msgid "Punk Rock"
+msgstr "Punk Rock"
+
+#: src/libaudgui/infowin.cc:116
+msgid "Rap"
+msgstr "Rap"
+
+#: src/libaudgui/infowin.cc:117
+msgid "Reggae"
+msgstr "Reggae"
+
+#: src/libaudgui/infowin.cc:118
+msgid "Rock"
+msgstr "Rock"
+
+#: src/libaudgui/infowin.cc:119
+msgid "Rock and Roll"
+msgstr "Rock and Roll"
+
+#: src/libaudgui/infowin.cc:120
+msgid "Rhythm and Blues"
+msgstr "Rhythm and Blues"
+
+#: src/libaudgui/infowin.cc:121
+msgid "Ska"
+msgstr "Ska"
+
+#: src/libaudgui/infowin.cc:122
+msgid "Soul"
+msgstr "Soul"
+
+#: src/libaudgui/infowin.cc:123
+msgid "Swing"
+msgstr "Swing"
+
+#: src/libaudgui/infowin.cc:124
+msgid "Techno"
+msgstr "Tekno"
+
+#: src/libaudgui/infowin.cc:125
+msgid "Trip-hop"
+msgstr "Trip-hop"
+
+#: src/libaudgui/infowin.cc:232
+msgid "Save successful"
+msgstr "Kayıt başarılı"
+
+#: src/libaudgui/infowin.cc:236
+msgid "Save error"
+msgstr "Kayıt hatası"
+
+#: src/libaudgui/infowin.cc:333 src/libaudgui/prefs-window.cc:87
+#: src/libaudqt/infowin-qt.cc:64 src/libaudqt/prefs-window-qt.cc:164
+msgid "Song Info"
+msgstr "Şarkı Bilgisi"
+
+#: src/libaudgui/infowin.cc:411 src/libaudqt/info-widget.cc:53
+msgid "Album Artist"
+msgstr "Albüm Sanatçısı"
+
+#: src/libaudgui/infowin.cc:414 src/libaudgui/prefs-window.cc:113
+#: src/libaudqt/info-widget.cc:56 src/libaudqt/prefs-window-qt.cc:180
+msgid "Comment"
+msgstr "Yorum"
+
+#: src/libaudgui/infowin.cc:424 src/libaudqt/info-widget.cc:54
+msgid "Track Number"
+msgstr "Parça Numarası"
+
+#: src/libaudgui/infowin.cc:426
+msgid "_Auto-fill empty fields"
+msgstr "_Boş alanları otomatik doldur"
+
+#: src/libaudgui/infowin.cc:440 src/libaudqt/infowin-qt.cc:121
+msgid "_Save"
+msgstr "_Kaydet"
+
+#: src/libaudgui/infowin.cc:446
+msgid "_Previous"
+msgstr "_Önceki"
+
+#: src/libaudgui/infowin.cc:449
+msgid "_Next"
+msgstr "_Sonraki"
+
+#: src/libaudgui/infowin.cc:498
+#, c-format
+msgid "%d kbit/s"
+msgstr "%d kbit/s"
+
+#: src/libaudgui/infowin.cc:503
+msgid "N/A"
+msgstr "Bilinmiyor"
+
+#: src/libaudgui/jump-to-time.cc:47 src/libaudgui/jump-to-track.cc:329
+#: src/libaudqt/song-window-qt.cc:373
+msgid "_Jump"
+msgstr "_Atla"
+
+#: src/libaudgui/jump-to-time.cc:51
+msgid "Jump to Time"
+msgstr "Zamana Atla"
+
+#: src/libaudgui/jump-to-time.cc:51
+msgid "Enter time (minutes:seconds):"
+msgstr "Giriş zamanı (dakika:saniye):"
+
+#: src/libaudgui/jump-to-track.cc:96 src/libaudgui/jump-to-track.cc:104
+#: src/libaudgui/jump-to-track.cc:320 src/libaudqt/song-window-qt.cc:290
+#: src/libaudqt/song-window-qt.cc:371
+msgid "_Queue"
+msgstr "_Kuyruğa al"
+
+#: src/libaudgui/jump-to-track.cc:102 src/libaudqt/song-window-qt.cc:290
+msgid "Un_queue"
+msgstr "Kuyruktan _çıkar"
+
+#: src/libaudgui/jump-to-track.cc:252 src/libaudqt/song-window-qt.cc:305
+msgid "Jump to Song"
+msgstr "Şarkıya Atla"
+
+#: src/libaudgui/jump-to-track.cc:278 src/libaudqt/song-window-qt.cc:322
+msgid "_Filter:"
+msgstr "_Süzgeç:"
+
+#: src/libaudgui/jump-to-track.cc:313 src/libaudqt/song-window-qt.cc:366
+msgid "C_lose on jump"
+msgstr "Geçişten sonra _kapat"
+
+#: src/libaudgui/playlists.cc:92
+msgid "_Overwrite"
+msgstr "_Üzerine Yaz"
+
+#: src/libaudgui/playlists.cc:96
+msgid "Confirm Overwrite"
+msgstr "Üzerine Yazmayı Onayla"
+
+#: src/libaudgui/playlists.cc:96
+#, c-format
+msgid "Overwrite %s?"
+msgstr "%s üzerine yazılsın mı?"
+
+#: src/libaudgui/playlists.cc:122 src/libaudqt/fileopener.cc:65
+msgid ""
+"Please type a filename extension or select a format from the drop-down list."
+msgstr ""
+"Lütfen bir dosya adı uzantısı yazın ya da açılır listeden bir biçim seçin."
+
+#: src/libaudgui/playlists.cc:141 src/libaudqt/fileopener.cc:72
+msgid "Select Format by Extension"
+msgstr "Eklentiye Göre Biçim Seç"
+
+#: src/libaudgui/playlists.cc:168 src/libaudqt/fileopener.cc:106
+msgid "Export Playlist"
+msgstr "Çalma Listesini Dışa Aktar"
+
+#: src/libaudgui/playlists.cc:169
+msgid "_Export"
+msgstr "_Dışa Aktar"
+
+#: src/libaudgui/playlists.cc:175 src/libaudqt/fileopener.cc:106
+msgid "Import Playlist"
+msgstr "Çalma Listesini İçe Aktar"
+
+#: src/libaudgui/playlists.cc:176
+msgid "_Import"
+msgstr "_İçe Aktar"
+
+#: src/libaudgui/plugin-menu.cc:40 src/libaudqt/plugin-menu-qt.cc:44
+msgid "_Plugins ..."
+msgstr "_Eklentiler ..."
+
+#: src/libaudgui/plugin-prefs.cc:110 src/libaudqt/prefs-plugin.cc:61
+#, c-format
+msgid "About %s"
+msgstr "%s Hakkında"
+
+#: src/libaudgui/plugin-prefs.cc:156 src/libaudqt/prefs-plugin.cc:126
+#, c-format
+msgid "%s Settings"
+msgstr "%s Ayarları"
+
+#: src/libaudgui/plugin-prefs.cc:161 src/libaudqt/prefs-plugin.cc:139
+msgid "_Set"
+msgstr "_Ayarla"
+
+#: src/libaudgui/plugin-view.cc:236 src/libaudgui/prefs-window.cc:754
+#: src/libaudgui/prefs-window.cc:794 src/libaudqt/prefs-window-qt.cc:647
+#: src/libaudqt/prefs-window-qt.cc:650
+msgid "_Settings"
+msgstr "A_yarlar"
+
+#: src/libaudgui/plugin-view.cc:243 src/libaudgui/prefs-window.cc:768
+#: src/libaudgui/prefs-window.cc:806 src/libaudqt/prefs-window-qt.cc:648
+#: src/libaudqt/prefs-window-qt.cc:651
+msgid "_About"
+msgstr "_Hakkında"
+
+#: src/libaudgui/prefs-widget.cc:323 src/libaudqt/prefs-widget-qt.cc:238
+msgid "Choose File"
+msgstr "Dosya Seç"
+
+#: src/libaudgui/prefs-widget.cc:327 src/libaudqt/prefs-widget-qt.cc:242
+msgid "Choose Folder"
+msgstr "Klasör Seç"
+
+#: src/libaudgui/prefs-window.cc:83 src/libaudqt/prefs-window-qt.cc:160
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: src/libaudgui/prefs-window.cc:84 src/libaudqt/prefs-window-qt.cc:161
+msgid "Audio"
+msgstr "Ses"
+
+#: src/libaudgui/prefs-window.cc:85 src/libaudqt/prefs-window-qt.cc:162
+msgid "Network"
+msgstr "Ağ"
+
+#: src/libaudgui/prefs-window.cc:86 src/libaudgui/prefs-window.cc:97
+#: src/libaudqt/prefs-pluginlist-model.cc:43
+#: src/libaudqt/prefs-window-qt.cc:163
+msgid "Playlist"
+msgstr "Çalma Listesi"
+
+#: src/libaudgui/prefs-window.cc:88 src/libaudqt/prefs-window-qt.cc:165
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: src/libaudgui/prefs-window.cc:89 src/libaudqt/prefs-window-qt.cc:166
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: src/libaudgui/prefs-window.cc:93 src/libaudqt/prefs-pluginlist-model.cc:39
+msgid "General"
+msgstr "Genel"
+
+#: src/libaudgui/prefs-window.cc:94 src/libaudqt/prefs-pluginlist-model.cc:40
+msgid "Effect"
+msgstr "Efekt"
+
+#: src/libaudgui/prefs-window.cc:95 src/libaudqt/prefs-pluginlist-model.cc:41
+msgid "Visualization"
+msgstr "Görselleştirme"
+
+#: src/libaudgui/prefs-window.cc:96 src/libaudqt/prefs-pluginlist-model.cc:42
+msgid "Input"
+msgstr "Giriş"
+
+#: src/libaudgui/prefs-window.cc:98 src/libaudqt/prefs-pluginlist-model.cc:44
+msgid "Transport"
+msgstr "Aktarım"
+
+#: src/libaudgui/prefs-window.cc:104 src/libaudqt/prefs-window-qt.cc:171
+msgid "Album artist"
+msgstr "Albüm sanatçısı"
+
+#: src/libaudgui/prefs-window.cc:106 src/libaudqt/prefs-window-qt.cc:173
+msgid "Track number"
+msgstr "Parça numarası"
+
+#: src/libaudgui/prefs-window.cc:108 src/libaudqt/prefs-window-qt.cc:175
+msgid "File name"
+msgstr "Dosya adı"
+
+#: src/libaudgui/prefs-window.cc:109 src/libaudqt/prefs-window-qt.cc:176
+msgid "File path"
+msgstr "Dosya yolu"
+
+#: src/libaudgui/prefs-window.cc:110 src/libaudqt/prefs-window-qt.cc:177
+msgid "Date"
+msgstr "Tarih"
+
+#: src/libaudgui/prefs-window.cc:111 src/libaudqt/info-widget.cc:57
+#: src/libaudqt/prefs-window-qt.cc:178
+msgid "Description"
+msgstr "Açıklama"
+
+#: src/libaudgui/prefs-window.cc:114 src/libaudqt/info-widget.cc:69
+#: src/libaudqt/prefs-window-qt.cc:181
+msgid "Codec"
+msgstr "Çözücü"
+
+#: src/libaudgui/prefs-window.cc:115 src/libaudqt/info-widget.cc:70
+#: src/libaudqt/prefs-window-qt.cc:182
+msgid "Quality"
+msgstr "Nitelik"
+
+#: src/libaudgui/prefs-window.cc:116 src/libaudqt/prefs-window-qt.cc:183
+msgid "Disc number"
+msgstr "Disk numarası"
+
+#: src/libaudgui/prefs-window.cc:120 src/libaudqt/prefs-window-qt.cc:186
+msgid "None"
+msgstr "Hiçbiri"
+
+#: src/libaudgui/prefs-window.cc:121 src/libaudqt/prefs-window-qt.cc:187
+msgid "Arabic"
+msgstr "Arapça"
+
+#: src/libaudgui/prefs-window.cc:122 src/libaudqt/prefs-window-qt.cc:188
+msgid "Baltic"
+msgstr "Baltık Dili"
+
+#: src/libaudgui/prefs-window.cc:123 src/libaudqt/prefs-window-qt.cc:189
+msgid "Chinese"
+msgstr "Çince"
+
+#: src/libaudgui/prefs-window.cc:124 src/libaudqt/prefs-window-qt.cc:190
+msgid "Greek"
+msgstr "Yunanca"
+
+#: src/libaudgui/prefs-window.cc:125 src/libaudqt/prefs-window-qt.cc:191
+msgid "Hebrew"
+msgstr "İbranice"
+
+#: src/libaudgui/prefs-window.cc:126 src/libaudqt/prefs-window-qt.cc:192
+msgid "Japanese"
+msgstr "Japonca"
+
+#: src/libaudgui/prefs-window.cc:127 src/libaudqt/prefs-window-qt.cc:193
+msgid "Korean"
+msgstr "Korece"
+
+#: src/libaudgui/prefs-window.cc:128 src/libaudqt/prefs-window-qt.cc:194
+msgid "Polish"
+msgstr "Lehçe"
+
+#: src/libaudgui/prefs-window.cc:129 src/libaudqt/prefs-window-qt.cc:195
+msgid "Russian"
+msgstr "Rusça"
+
+#: src/libaudgui/prefs-window.cc:130 src/libaudqt/prefs-window-qt.cc:196
+msgid "Taiwanese"
+msgstr "Tayvanca"
+
+#: src/libaudgui/prefs-window.cc:131 src/libaudqt/prefs-window-qt.cc:197
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: src/libaudgui/prefs-window.cc:135 src/libaudqt/prefs-window-qt.cc:200
+msgid "Automatic"
+msgstr "Kendiliğinden"
+
+#: src/libaudgui/prefs-window.cc:139 src/libaudqt/prefs-window-qt.cc:201
+msgid "Floating point"
+msgstr "Kayan noktalı"
+
+#: src/libaudgui/prefs-window.cc:143 src/libaudqt/prefs-window-qt.cc:204
+msgid "As decoded"
+msgstr "Çözüldüğü gibi"
+
+#: src/libaudgui/prefs-window.cc:144 src/libaudqt/prefs-window-qt.cc:205
+msgid "After applying ReplayGain"
+msgstr "ReplayGain'i uyguladıktan sonra"
+
+#: src/libaudgui/prefs-window.cc:145 src/libaudqt/prefs-window-qt.cc:207
+msgid "After applying effects"
+msgstr "Efekler uygulandıktan sonra"
+
+#: src/libaudgui/prefs-window.cc:146 src/libaudqt/prefs-window-qt.cc:208
+msgid "After applying equalization"
+msgstr "Dengeleme uygulandıktan sonra"
+
+#: src/libaudgui/prefs-window.cc:152 src/libaudqt/prefs-window-qt.cc:214
+msgid "Based on shuffle"
+msgstr "Karıştırmaya dayalı"
+
+#: src/libaudgui/prefs-window.cc:167
+msgid "Restart in Qt mode"
+msgstr "Qt kipinde yeniden başlat"
+
+#: src/libaudgui/prefs-window.cc:176
+msgid "Audacious is running in GTK mode."
+msgstr "Audacious GTK modunda çalışıyor."
+
+#: src/libaudgui/prefs-window.cc:180
+msgid "Qt mode is unavailable in this build."
+msgstr "Qt kipi bu sürüm için mevcut değil."
+
+#: src/libaudgui/prefs-window.cc:182 src/libaudqt/prefs-window-qt.cc:270
+msgid "Interface:"
+msgstr "Arayüz:"
+
+#: src/libaudgui/prefs-window.cc:201 src/libaudqt/prefs-window-qt.cc:284
+msgid "Output plugin:"
+msgstr "Çıkış eklentisi:"
+
+#: src/libaudgui/prefs-window.cc:222 src/libaudqt/prefs-window-qt.cc:297
+msgid "Amplify all files:"
+msgstr "Tüm dosyaları yükselt:"
+
+#: src/libaudgui/prefs-window.cc:224 src/libaudgui/prefs-window.cc:227
+#: src/libaudqt/prefs-window-qt.cc:298 src/libaudqt/prefs-window-qt.cc:300
+msgid "dB"
+msgstr "dB"
+
+#: src/libaudgui/prefs-window.cc:225 src/libaudqt/prefs-window-qt.cc:299
+msgid "Amplify untagged files:"
+msgstr "Etiketsiz dosyaları yükselt:"
+
+#: src/libaudgui/prefs-window.cc:231 src/libaudqt/prefs-window-qt.cc:303
+msgid "<b>Output Settings</b>"
+msgstr "<b>Çıkış Ayarları</b>"
+
+#: src/libaudgui/prefs-window.cc:233 src/libaudqt/prefs-window-qt.cc:305
+msgid "Bit depth:"
+msgstr "Bit derinliği:"
+
+#: src/libaudgui/prefs-window.cc:236 src/libaudgui/prefs-window.cc:281
+#: src/libaudqt/prefs-window-qt.cc:308 src/libaudqt/prefs-window-qt.cc:336
+msgid "Buffer size:"
+msgstr "Arabellek boyutu:"
+
+#: src/libaudgui/prefs-window.cc:238 src/libaudqt/prefs-window-qt.cc:309
+msgid "ms"
+msgstr "ms"
+
+#: src/libaudgui/prefs-window.cc:239 src/libaudqt/prefs-window-qt.cc:310
+msgid "Soft clipping"
+msgstr "Yumuşak kesim"
+
+#: src/libaudgui/prefs-window.cc:241 src/libaudqt/prefs-window-qt.cc:311
+msgid "Use software volume control (not recommended)"
+msgstr "Yazılımsal ses denetimi kullan (önerilmez)"
+
+#: src/libaudgui/prefs-window.cc:243 src/libaudqt/prefs-window-qt.cc:313
+msgid "<b>Recording Settings</b>"
+msgstr "<b>Ses Kaydı Ayarları</b>"
+
+#: src/libaudgui/prefs-window.cc:247 src/libaudqt/prefs-window-qt.cc:316
+msgid "Record stream:"
+msgstr "Akışı kaydet:"
+
+#: src/libaudgui/prefs-window.cc:250 src/libaudqt/prefs-window-qt.cc:318
+msgid "<b>ReplayGain</b>"
+msgstr "<b>ReplayGain</b>"
+
+#: src/libaudgui/prefs-window.cc:251 src/libaudqt/prefs-window-qt.cc:319
+msgid "Enable ReplayGain"
+msgstr "ReplayGain'i etkinleştir"
+
+#: src/libaudgui/prefs-window.cc:253 src/libaudqt/prefs-window-qt.cc:320
+msgid "Mode:"
+msgstr "Mod:"
+
+#: src/libaudgui/prefs-window.cc:257 src/libaudqt/prefs-window-qt.cc:322
+msgid "Prevent clipping (recommended)"
+msgstr "Tıraşlamayı önle (önerilir)"
+
+#: src/libaudgui/prefs-window.cc:265 src/libaudqt/prefs-window-qt.cc:327
+msgid "Proxy hostname:"
+msgstr "Vekil sunucu makine adı:"
+
+#: src/libaudgui/prefs-window.cc:267 src/libaudqt/prefs-window-qt.cc:328
+msgid "Proxy port:"
+msgstr "Vekil sunucu bağlantı noktası:"
+
+#: src/libaudgui/prefs-window.cc:272 src/libaudqt/prefs-window-qt.cc:331
+msgid "Proxy username:"
+msgstr "Vekil sunucu kullanıcı adı:"
+
+#: src/libaudgui/prefs-window.cc:274 src/libaudqt/prefs-window-qt.cc:332
+msgid "Proxy password:"
+msgstr "Vekil sunucu şifresi:"
+
+#: src/libaudgui/prefs-window.cc:280 src/libaudqt/prefs-window-qt.cc:335
+msgid "<b>Network Settings</b>"
+msgstr "<b>Ağ Ayarları</b>"
+
+#: src/libaudgui/prefs-window.cc:283 src/libaudqt/prefs-window-qt.cc:337
+msgid "KiB"
+msgstr "KiB"
+
+#: src/libaudgui/prefs-window.cc:284 src/libaudqt/prefs-window-qt.cc:338
+msgid "<b>Proxy Configuration</b>"
+msgstr "<b>Vekil Sunucu Yapılandırması</b>"
+
+#: src/libaudgui/prefs-window.cc:285 src/libaudqt/prefs-window-qt.cc:339
+msgid "Enable proxy usage"
+msgstr "Vekil sunucu kullanımını etkinleştir"
+
+#: src/libaudgui/prefs-window.cc:289 src/libaudqt/prefs-window-qt.cc:341
+msgid "Use authentication with proxy"
+msgstr "Vekil sunucu doğrulaması kullan"
+
+#: src/libaudgui/prefs-window.cc:293 src/libaudqt/prefs-window-qt.cc:344
+msgid "Use SOCKS proxy"
+msgstr "SOCKS vekil kullan"
+
+#: src/libaudgui/prefs-window.cc:295 src/libaudqt/prefs-window-qt.cc:345
+msgid "SOCKS v4a"
+msgstr "SOCKS v4a"
+
+#: src/libaudgui/prefs-window.cc:299 src/libaudqt/prefs-window-qt.cc:346
+msgid "SOCKS v5"
+msgstr "SOCKS v5"
+
+#: src/libaudgui/prefs-window.cc:306 src/libaudqt/prefs-window-qt.cc:349
+msgid "Auto character encoding detector for:"
+msgstr "Şu dil için kendiliğinden karakter tanımlamayı aç:"
+
+#: src/libaudgui/prefs-window.cc:309 src/libaudqt/prefs-window-qt.cc:352
+msgid "Fallback character encodings:"
+msgstr "Alternatif karakter kodlamaları:"
+
+#: src/libaudgui/prefs-window.cc:317 src/libaudqt/prefs-window-qt.cc:359
+msgid "<b>Behavior</b>"
+msgstr "<b>Davranış</b>"
+
+#: src/libaudgui/prefs-window.cc:318 src/libaudqt/prefs-window-qt.cc:360
+msgid "Resume playback on startup"
+msgstr "Başlangıçta oynatmaya devam et"
+
+#: src/libaudgui/prefs-window.cc:320 src/libaudqt/prefs-window-qt.cc:362
+msgid "Pause instead of resuming immediately"
+msgstr "Hemen devam etmek yerine duraklat"
+
+#: src/libaudgui/prefs-window.cc:323 src/libaudqt/prefs-window-qt.cc:364
+msgid "Advance when the current song is deleted"
+msgstr "Çalan şarkı silindiğinde sonrakine atla"
+
+#: src/libaudgui/prefs-window.cc:325 src/libaudqt/prefs-window-qt.cc:366
+msgid "Clear the playlist when opening files"
+msgstr "Dosya açarken listeyi temizle"
+
+#: src/libaudgui/prefs-window.cc:327 src/libaudqt/prefs-window-qt.cc:368
+msgid "Open files in a temporary playlist"
+msgstr "Dosyaları geçici bir listede aç"
+
+#: src/libaudgui/prefs-window.cc:329 src/libaudqt/prefs-window-qt.cc:370
+msgid "Skip confirmation when removing a playlist"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:331 src/libaudqt/prefs-window-qt.cc:372
+msgid "<b>Song Display</b>"
+msgstr "<b>Şarkı Göstergesi</b>"
+
+#: src/libaudgui/prefs-window.cc:332 src/libaudqt/prefs-window-qt.cc:373
+msgid "Show song numbers"
+msgstr "Şarkı numaralarını göster"
+
+#: src/libaudgui/prefs-window.cc:334 src/libaudqt/prefs-window-qt.cc:375
+msgid "Show leading zeroes (02:00 vs. 2:00)"
+msgstr "Öndeki sıfırları göster (02:00'a karşı 2:00)"
+
+#: src/libaudgui/prefs-window.cc:336 src/libaudqt/prefs-window-qt.cc:377
+msgid "Show hours separately (1:30:00 vs. 90:00)"
+msgstr "Saatleri ayrı ayrı göster (1:30:00'a karşı 90:00)"
+
+#: src/libaudgui/prefs-window.cc:339 src/libaudqt/prefs-window-qt.cc:380
+msgid "<b>Export</b>"
+msgstr "<b>Dışa1Dışa aktar</b>"
+
+#: src/libaudgui/prefs-window.cc:340 src/libaudqt/prefs-window-qt.cc:381
+msgid "Use relative paths when possible"
+msgstr "Mümkün olduğunda göreli yollar kullanın"
+
+#: src/libaudgui/prefs-window.cc:345 src/libaudqt/prefs-window-qt.cc:385
+msgid "<b>Album Art</b>"
+msgstr "<b>Albüm Resmi</b>"
+
+#: src/libaudgui/prefs-window.cc:346 src/libaudqt/prefs-window-qt.cc:387
+msgid "Search for images matching these words (comma-separated):"
+msgstr "Bu sözcüklerle eşleşen resimleri ara (virgülle ayır)"
+
+#: src/libaudgui/prefs-window.cc:348 src/libaudqt/prefs-window-qt.cc:389
+msgid "Exclude images matching these words (comma-separated):"
+msgstr "Bu sözcükleri içeren resimleri çıkar (virgülle ayır):"
+
+#: src/libaudgui/prefs-window.cc:350 src/libaudqt/prefs-window-qt.cc:391
+msgid "Search for images matching song file name"
+msgstr "Şarkı dosya adıyla eşleşen resimleri ara"
+
+#: src/libaudgui/prefs-window.cc:352 src/libaudqt/prefs-window-qt.cc:393
+msgid "Search recursively"
+msgstr "Yinelemeli ara"
+
+#: src/libaudgui/prefs-window.cc:354 src/libaudqt/prefs-window-qt.cc:394
+msgid "Search depth:"
+msgstr "Arama derinliği:"
+
+#: src/libaudgui/prefs-window.cc:358 src/libaudqt/prefs-window-qt.cc:396
+msgid "<b>Popup Information</b>"
+msgstr "<b>Açılır Bilgi</b>"
+
+#: src/libaudgui/prefs-window.cc:359 src/libaudqt/prefs-window-qt.cc:397
+msgid "Show popup information"
+msgstr "Açılır pencere bilgisi göster"
+
+#: src/libaudgui/prefs-window.cc:361 src/libaudqt/prefs-window-qt.cc:399
+msgid "Popup delay (tenths of a second):"
+msgstr "Açılır pencere erteleme (saniyenin onda biri):"
+
+#: src/libaudgui/prefs-window.cc:365
+msgid "Show time scale for current song"
+msgstr "Geçerli şarkı için zaman ölçeğini göster"
+
+#: src/libaudgui/prefs-window.cc:371 src/libaudqt/prefs-window-qt.cc:403
+msgid "<b>Compatibility</b>"
+msgstr "<b>Uyumluluk</b>"
+
+#: src/libaudgui/prefs-window.cc:373 src/libaudqt/prefs-window-qt.cc:405
+msgid "Use Xwayland (requires a restart to take effect)"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:376 src/libaudqt/prefs-window-qt.cc:408
+msgid "Interpret \\ (backward slash) as a folder delimiter"
+msgstr "Geriye yatık taksimi ( \\ ) klasör sınırlayıcı olarak yorumla"
+
+#: src/libaudgui/prefs-window.cc:379 src/libaudqt/prefs-window-qt.cc:411
+msgid "<b>Playlist</b>"
+msgstr "<b>Oynatma Liistesi</b>"
+
+#: src/libaudgui/prefs-window.cc:380 src/libaudqt/prefs-window-qt.cc:412
+msgid "Add folders recursively"
+msgstr "Dizinleri tekrarlı olarak ekle"
+
+#: src/libaudgui/prefs-window.cc:382 src/libaudqt/prefs-window-qt.cc:414
+msgid "Add folders nested within playlist files"
+msgstr "Oynatma listesi dosyalarında yuvalanmış dizinler ekle"
+
+#: src/libaudgui/prefs-window.cc:384 src/libaudqt/prefs-window-qt.cc:416
+msgid "<b>Metadata</b>"
+msgstr "<b>Parça Bilgisi</b>"
+
+#: src/libaudgui/prefs-window.cc:385 src/libaudqt/prefs-window-qt.cc:417
+msgid "Guess missing metadata from file path"
+msgstr "Eksik üst veriyi dosya yolundan sez"
+
+#: src/libaudgui/prefs-window.cc:387 src/libaudqt/prefs-window-qt.cc:419
+msgid "Do not load metadata for songs until played"
+msgstr "Çalınana kadar şarkı üst verilerini yükleme"
+
+#: src/libaudgui/prefs-window.cc:389 src/libaudqt/prefs-window-qt.cc:422
+msgid "Probe content of files with no recognized file name extension"
+msgstr "Tanımlanamayan dosya uzantısı bulunan dosya içeriklerini tara"
+
+#: src/libaudgui/prefs-window.cc:391 src/libaudqt/prefs-window-qt.cc:424
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>Karışık</b>"
+
+#: src/libaudgui/prefs-window.cc:392 src/libaudqt/prefs-window-qt.cc:425
+msgid "Step forward/backward by:"
+msgstr "İleri/geri adım:"
+
+#: src/libaudgui/prefs-window.cc:394 src/libaudqt/prefs-window-qt.cc:426
+msgid "seconds"
+msgstr "saniye"
+
+#: src/libaudgui/prefs-window.cc:395 src/libaudqt/prefs-window-qt.cc:427
+msgid "Adjust volume by:"
+msgstr "Ses düzeyini şuna göre ayarlayın:"
+
+#: src/libaudgui/prefs-window.cc:397 src/libaudqt/prefs-window-qt.cc:428
+msgid "percent"
+msgstr "yüzde"
+
+#: src/libaudgui/prefs-window.cc:416 src/libaudqt/prefs-window-qt.cc:449
+msgid "TITLE"
+msgstr "BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:417 src/libaudqt/prefs-window-qt.cc:450
+msgid "TITLE - ARTIST"
+msgstr "BAŞLIK - SANATÇI"
+
+#: src/libaudgui/prefs-window.cc:418 src/libaudqt/prefs-window-qt.cc:451
+msgid "TITLE - ARTIST - ALBUM"
+msgstr "BAŞLIK - SANATÇI - ALBÜM"
+
+#: src/libaudgui/prefs-window.cc:419 src/libaudqt/prefs-window-qt.cc:452
+msgid "ARTIST - TITLE"
+msgstr "SANATÇI - BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:420 src/libaudqt/prefs-window-qt.cc:453
+msgid "ARTIST - ALBUM - TITLE"
+msgstr "SANATÇI - ALBÜM - BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:421 src/libaudqt/prefs-window-qt.cc:454
+msgid "ARTIST - ALBUM - TRACK. TITLE"
+msgstr "SANATÇI - ALBÜM - PARÇA. BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:422 src/libaudqt/prefs-window-qt.cc:455
+msgid "ARTIST [ ALBUM ] - TRACK. TITLE"
+msgstr "SANATÇI  [ ALBÜM ] - PARÇA. BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:423 src/libaudqt/prefs-window-qt.cc:456
+msgid "ARTIST - ALBUM - DISC.TRACK. TITLE"
+msgstr "SANATÇI - ALBÜM -DİSK.PARÇA. BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:424 src/libaudqt/prefs-window-qt.cc:457
+msgid "ARTIST [ ALBUM ] - DISC.TRACK. TITLE"
+msgstr "SANATÇI - [ ALBÜM ] -DİSK.PARÇA. BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:425 src/libaudqt/prefs-window-qt.cc:458
+msgid "ALBUM - TITLE"
+msgstr "ALBÜM - BAŞLIK"
+
+#: src/libaudgui/prefs-window.cc:523
+msgid "Category"
+msgstr "Kategori"
+
+#: src/libaudgui/prefs-window.cc:579 src/libaudqt/prefs-window-qt.cc:475
+msgid "Custom"
+msgstr "Özel"
+
+#: src/libaudgui/prefs-window.cc:597 src/libaudqt/prefs-window-qt.cc:467
+msgid "Title format:"
+msgstr "Başlık biçimi:"
+
+#: src/libaudgui/prefs-window.cc:598 src/libaudqt/prefs-window-qt.cc:478
+msgid "Custom string:"
+msgstr "Özel metin:"
+
+#: src/libaudgui/prefs-window.cc:820 src/libaudqt/prefs-window-qt.cc:787
+#, c-format
+msgid "Enable audio stream recording with %s"
+msgstr "%s ile ses akışı kaydını etkinleştir "
+
+#: src/libaudgui/prefs-window.cc:829 src/libaudqt/prefs-window-qt.cc:800
+msgid "No audio recording plugin available"
+msgstr "Ses kaydı eklentisi yok"
+
+#: src/libaudgui/prefs-window.cc:890 src/libaudqt/prefs-window-qt.cc:660
+msgid "Audacious Settings"
+msgstr "Audacious Ayarları"
+
+#: src/libaudgui/preset-browser.cc:53 src/libaudgui/util.cc:199
+#: src/libaudqt/fileopener.cc:125
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#: src/libaudgui/preset-browser.cc:54 src/libaudqt/eq-preset-qt.cc:299
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/libaudgui/preset-browser.cc:54 src/libaudqt/eq-preset-qt.cc:261
+msgid "Load"
+msgstr "Yükle"
+
+#: src/libaudgui/preset-browser.cc:85 src/libaudqt/eq-preset-qt.cc:257
+msgid "Load Preset File"
+msgstr "Önayar Dosyası Yükle"
+
+#: src/libaudgui/preset-browser.cc:99
+msgid "Load EQF File"
+msgstr "EQF Dosyası Yükle"
+
+#: src/libaudgui/preset-browser.cc:114 src/libaudqt/eq-preset-qt.cc:294
+msgid "Save Preset File"
+msgstr "Önayar Dosyasını Kaydet"
+
+#: src/libaudgui/preset-browser.cc:131
+msgid "Save EQF File"
+msgstr "EQF Dosyasını Kaydet"
+
+#: src/libaudgui/queue-manager.cc:175 src/libaudqt/queue-manager-qt.cc:347
+msgid "Queue Manager"
+msgstr "Kuyruk Yöneticisi"
+
+#: src/libaudgui/queue-manager.cc:194 src/libaudqt/queue-manager-qt.cc:329
+msgid "_Unqueue"
+msgstr "_Sıradan Kaldır"
+
+#: src/libaudgui/status.cc:37
+msgid "Working ..."
+msgstr "Çalışıyor..."
+
+#: src/libaudgui/status.cc:87 src/libaudqt/log-inspector.cc:226
+msgid "Error"
+msgstr "Hata"
+
+#: src/libaudgui/status.cc:92
+msgid "Information"
+msgstr "Bilgi"
+
+#: src/libaudgui/url-opener.cc:59 src/libaudqt/url-opener-qt.cc:41
+msgid "_Save to history"
+msgstr "_Geçmişe kaydet"
+
+#: src/libaudgui/url-opener.cc:67 src/libaudqt/url-opener-qt.cc:47
+msgid "Open URL"
+msgstr "URL Aç"
+
+#: src/libaudgui/url-opener.cc:73 src/libaudqt/url-opener-qt.cc:53
+msgid "Add URL"
+msgstr "URL Ekle"
+
+#: src/libaudgui/url-opener.cc:96 src/libaudqt/url-opener-qt.cc:70
+msgid "C_lear history"
+msgstr "Geçmişi temiz_le"
+
+#: src/libaudgui/url-opener.cc:108 src/libaudqt/url-opener-qt.cc:63
+msgid "Enter URL:"
+msgstr "URL gir:"
+
+#: src/libaudgui/util.cc:199 src/libaudqt/fileopener.cc:109
+msgid "Open"
+msgstr "Aç"
+
+#: src/libaudgui/util.cc:341
+msgid ""
+"\n"
+"(Further messages have been hidden.)"
+msgstr ""
+"\n"
+"(Devam eden iletiler gizlendi.)"
+
+#: src/libaudqt/eq-preset-qt.cc:252
+msgid "Preset files (*.preset *.eqf *.q1)"
+msgstr "Ön ayarlı dosyalar (* .preset * .eqf * .q1)"
+
+#: src/libaudqt/eq-preset-qt.cc:347
+msgid "Revert"
+msgstr "Geri al"
+
+#: src/libaudqt/file-entry.cc:40
+msgid "Browse"
+msgstr "Gözat"
+
+#: src/libaudqt/fileopener.cc:105
+msgid "Open Folder"
+msgstr "Klasörü Aç"
+
+#: src/libaudqt/fileopener.cc:106
+msgid "Add Folder"
+msgstr "Klasör Ekle"
+
+#: src/libaudqt/fileopener.cc:109 src/libaudqt/fileopener.cc:110
+msgid "Add"
+msgstr "Ekle"
+
+#: src/libaudqt/font-entry.cc:42
+msgid "Set Font"
+msgstr "Yazı Tipini Ayarla"
+
+#: src/libaudqt/info-widget.cc:46
+msgid "<various>"
+msgstr "<various>"
+
+#: src/libaudqt/info-widget.cc:49
+msgid "Metadata"
+msgstr "Üst veri"
+
+#: src/libaudqt/info-widget.cc:58
+msgid "Composer"
+msgstr "Besteci"
+
+#: src/libaudqt/info-widget.cc:59
+msgid "Performer"
+msgstr "Söyleyen"
+
+#: src/libaudqt/info-widget.cc:60
+msgid "Recording Year"
+msgstr "Kayıt Yılı"
+
+#: src/libaudqt/info-widget.cc:61
+msgid "Recording Date"
+msgstr "Kayıt Tarihi"
+
+#: src/libaudqt/info-widget.cc:62
+msgid "Publisher"
+msgstr "Yayıncı"
+
+#: src/libaudqt/info-widget.cc:63
+msgid "Catalog Number"
+msgstr "Kalatog Numarası"
+
+#: src/libaudqt/info-widget.cc:64
+msgid "Disc Number"
+msgstr "Disk Numarası"
+
+#: src/libaudqt/info-widget.cc:67
+msgid "Technical"
+msgstr "Teknik"
+
+#: src/libaudqt/info-widget.cc:71
+msgid "Bitrate"
+msgstr "Bit oranı"
+
+#: src/libaudqt/info-widget.cc:72
+msgid "Channels"
+msgstr "Kanallar"
+
+#: src/libaudqt/info-widget.cc:73
+msgid "MusicBrainz ID"
+msgstr "MusicBrainz Kimliği"
+
+#: src/libaudqt/info-widget.cc:74
+msgid "File Created"
+msgstr ""
+
+#: src/libaudqt/info-widget.cc:75
+msgid "File Modified"
+msgstr ""
+
+#: src/libaudqt/infowin-qt.cc:94
+msgid "_Revert"
+msgstr "_Geri Al"
+
+#: src/libaudqt/infowin-qt.cc:105
+msgid "Error writing tag(s)."
+msgstr "Etiket(leri) yazma hatası."
+
+#: src/libaudqt/infowin-qt.cc:127
+msgid "%1 files selected"
+msgstr "%1 dosya seçildi"
+
+#: src/libaudqt/infowin-qt.cc:131
+msgid "_Save %1 files"
+msgstr "%1 dosyayı _kaydet"
+
+#: src/libaudqt/log-inspector.cc:152
+msgid "Level"
+msgstr "Düzey"
+
+#: src/libaudqt/log-inspector.cc:154
+msgid "Function"
+msgstr "İşlev"
+
+#: src/libaudqt/log-inspector.cc:156
+msgid "Message"
+msgstr "İleti"
+
+#: src/libaudqt/log-inspector.cc:211
+msgid "Log Inspector"
+msgstr "Günlük Denetleyici"
+
+#: src/libaudqt/log-inspector.cc:223
+msgid "Debug"
+msgstr "Hata giderme"
+
+#: src/libaudqt/log-inspector.cc:224
+msgid "Info"
+msgstr "Bilgi"
+
+#: src/libaudqt/log-inspector.cc:225
+msgid "Warning"
+msgstr "Uyarı"
+
+#: src/libaudqt/log-inspector.cc:237
+msgid "Cl_ear"
+msgstr "Temizl_e"
+
+#: src/libaudqt/log-inspector.cc:250
+msgid "Log Level:"
+msgstr "Günlük Düzeyi:"
+
+#: src/libaudqt/plugin-menu-qt.cc:52
+msgid "Services"
+msgstr "Hizmetler"
+
+#: src/libaudqt/prefs-window-qt.cc:228
+msgid "Restart in GTK mode"
+msgstr "GTK modunda yeniden başlat"
+
+#: src/libaudqt/prefs-window-qt.cc:237 src/libaudqt/prefs-window-qt.cc:250
+msgid "Native"
+msgstr "Yerel"
+
+#: src/libaudqt/prefs-window-qt.cc:238
+msgid "Dark"
+msgstr "Koyu"
+
+#: src/libaudqt/prefs-window-qt.cc:252
+msgid "Flat"
+msgstr "Düz"
+
+#: src/libaudqt/prefs-window-qt.cc:253
+msgid "Flat (dark)"
+msgstr "Düz (koyu)"
+
+#: src/libaudqt/prefs-window-qt.cc:263
+msgid "Audacious is running in Qt mode."
+msgstr "Audacious Qt kipinde çalışıyor."
+
+#: src/libaudqt/prefs-window-qt.cc:267
+msgid "GTK mode is unavailable in this build."
+msgstr "Bu sürümde GTK modu mevcut değil."
+
+#: src/libaudqt/prefs-window-qt.cc:273
+msgid "Theme:"
+msgstr "Tema:"
+
+#: src/libaudqt/prefs-window-qt.cc:275
+msgid "Icon theme:"
+msgstr "Simge teması:"
+
+#: src/libaudqt/util-qt.cc:113
+msgid "Copy"
+msgstr "Kopyala"
+
+#: src/libaudqt/volumebutton.cc:165
+#, c-format
+msgid "%d%%"
+msgstr "%d%%"

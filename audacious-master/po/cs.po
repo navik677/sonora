@@ -1,0 +1,1643 @@
+# Czech translation for Audacious
+# Copyright (C) Audacious translators
+# This file is distributed under the same license as the Audacious package.
+#
+# Translators:
+# Appukonrad <appukonrad@gmail.com>, 2012
+# fri, 2012
+# fri, 2012-2013
+# hpsoft <liborsustr.ml@seznam.cz>, 2014
+# Jan Nárovec <finn@sendmail.cz>, 2004
+# Andy Andy <nd76er@gmail.com>, 2014
+# Appukonrad <appukonrad@gmail.com>, 2012
+# Appukonrad <appukonrad@gmail.com>, 2012
+# hpsoft <liborsustr.ml@seznam.cz>, 2014
+# Lukáš Kotek <lkotek@suse.com>, 2020
+# IAmNotImportant, 2016
+# Andy Andy <nd76er@gmail.com>, 2014-2015
+# fri, 2013-2014
+# fri, 2012
+# Petr Písař <petr.pisar@atlas.cz>, 2007-2012
+# Petr Šimáček <petr.simacek@gmail.com>, 2014,2017
+# Roman Horník <roman.hornik@debian-linux.cz>, 2016,2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Audacious\n"
+"Report-Msgid-Bugs-To: https://github.com/audacious-media-player/audacious/"
+"issues\n"
+"POT-Creation-Date: 2026-05-09 21:25+0200\n"
+"PO-Revision-Date: 2011-10-10 15:11+0000\n"
+"Last-Translator: Lukáš Kotek <lkotek@suse.com>, 2020\n"
+"Language-Team: Czech (http://app.transifex.com/audacious/audacious/language/"
+"cs/)\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: src/audacious/main.cc:74
+msgid "Show command-line help"
+msgstr "Zobrazit nápovědu příkazového řádku"
+
+#: src/audacious/main.cc:75
+msgid "Show version"
+msgstr "Zobrazit verzi"
+
+#: src/audacious/main.cc:76
+msgid "Start playback"
+msgstr "Zahájit přehrávání"
+
+#: src/audacious/main.cc:78
+msgid "Pause playback, resume if already paused"
+msgstr ""
+
+#: src/audacious/main.cc:80
+msgid "Pause if playing, play otherwise"
+msgstr "Pozastaví při přehrávání; jinak spustí"
+
+#: src/audacious/main.cc:81
+msgid "Stop playback"
+msgstr "Zastavit přehrávání"
+
+#: src/audacious/main.cc:82
+msgid "Skip to previous song"
+msgstr "Přeskočit k předchozí skladbě"
+
+#: src/audacious/main.cc:83
+msgid "Skip to next song"
+msgstr "Přeskočit k následující skladbě"
+
+#: src/audacious/main.cc:84
+msgid "Add files to the playlist"
+msgstr "Přidat soubory do do seznamu skladeb"
+
+#: src/audacious/main.cc:86
+msgid "Add files to a temporary playlist"
+msgstr "Přidat soubory do dočasného playlistu"
+
+#: src/audacious/main.cc:87
+msgid "Display the main window"
+msgstr "Zobrazit hlavní okno"
+
+#: src/audacious/main.cc:89
+msgid "Display the jump-to-song window"
+msgstr "Ukázat okno s přeskakováním skladeb"
+
+#: src/audacious/main.cc:91
+msgid "Start without a graphical interface"
+msgstr "Spustit bez grafického rozhraní"
+
+#: src/audacious/main.cc:93
+msgid "Quit on playback stop"
+msgstr "Ukončit po zastavení přehrávání"
+
+#: src/audacious/main.cc:95
+msgid "Print debugging messages (may be used twice)"
+msgstr "Zobrazit zprávy o ladění (může být použito dvakrát)"
+
+#: src/audacious/main.cc:97
+msgid "Run in GTK mode"
+msgstr "Spustit v režimu GTK"
+
+#: src/audacious/main.cc:98
+msgid "Run in Qt mode"
+msgstr "Spustit v režimu Qt"
+
+#: src/audacious/main.cc:155
+#, c-format
+msgid "Unknown option: %s\n"
+msgstr "Neznámá volba: %s\n"
+
+#: src/audacious/main.cc:177
+#, c-format
+msgid "Unknown option: -%c\n"
+msgstr "Neznámá volba: -%c\n"
+
+#: src/audacious/main.cc:207
+msgid ""
+"Usage: audacious [OPTION] ... [FILE] ...\n"
+"\n"
+msgstr "Použití: audacious [OPTION] ... [FILE] ...\n"
+
+#: src/audacious/main.cc:209
+msgid "Select instance to run/control"
+msgstr "Zvolte instanci pro spuštění/ovládání"
+
+#: src/audacious/main.cc:392 src/libaudqt/audqt.cc:151
+msgid "Audacious"
+msgstr "Audacious"
+
+#: src/libaudcore/adder.cc:96
+#, c-format
+msgid "%d file found"
+msgid_plural "%d files found"
+msgstr[0] "Nalezen %d soubor"
+msgstr[1] "Nalezeny %d soubory"
+msgstr[2] "Nalezeno %d souborů"
+msgstr[3] "Nalezeno %d souborů"
+
+#: src/libaudcore/adder.cc:320 src/libaudcore/adder.cc:404
+#, c-format
+msgid ""
+"Error reading %s:\n"
+"%s"
+msgstr ""
+"Chyba při čtení %s:\n"
+"%s"
+
+#: src/libaudcore/adder.cc:456
+msgid "No files found."
+msgstr "Nenalazeny žádné soubory."
+
+#: src/libaudcore/adder.cc:478 src/libaudcore/playlist.cc:81
+msgid "New Playlist"
+msgstr "Nový seznam skladeb"
+
+#: src/libaudcore/audstrings.cc:664 src/libaudcore/tuple.cc:562
+msgid "Standard input"
+msgstr "Standardní vstup"
+
+#: src/libaudcore/audstrings.cc:666
+#, c-format
+msgid "Audio CD, track %s"
+msgstr "Zvukové CD, stopa %s"
+
+#: src/libaudcore/audstrings.cc:670 src/libaudcore/tuple.cc:538
+msgid "(character encoding error)"
+msgstr "(chyba kódování znaků)"
+
+#: src/libaudcore/drct.cc:96
+msgid ""
+"Stream recording must be configured in Audio Settings before it can be used."
+msgstr ""
+"Nahrávání streamu musí být před použitím nakonfigurováno v nastavení zvuku."
+
+#: src/libaudcore/output.cc:288
+msgid "Error opening output stream"
+msgstr "Chyba při otevírání výstupního proudu"
+
+#: src/libaudcore/output.cc:340
+msgid "Error recording output stream"
+msgstr "Chyba při zaznamenávání výstupního proudu"
+
+#: src/libaudcore/playback.cc:378
+#, c-format
+msgid ""
+"Error playing %s:\n"
+"%s"
+msgstr ""
+"Chyba přehrávání %s:\n"
+"%s"
+
+#: src/libaudcore/playback.cc:509
+msgid "Invalid audio format"
+msgstr "Neplatný zvukový formát"
+
+#: src/libaudcore/playlist.cc:82
+msgid "Now Playing"
+msgstr "Nyní hraje"
+
+#: src/libaudcore/playlist-files.cc:73 src/libaudcore/playlist-files.cc:153
+#: src/libaudgui/infowin.cc:538 src/libaudqt/infowin-qt.cc:183
+#, c-format
+msgid ""
+"Error opening %s:\n"
+"%s"
+msgstr ""
+"Chyba při otevírání %s:\n"
+"%s"
+
+#: src/libaudcore/playlist-files.cc:87 src/libaudqt/eq-preset-qt.cc:283
+#, c-format
+msgid "Error loading %s."
+msgstr "Chyba při nahrávání %s."
+
+#: src/libaudcore/playlist-files.cc:89
+#, c-format
+msgid "Cannot load %s: unsupported file name extension."
+msgstr "Nemohu nahrát %s: nepodporovaná přípona souboru."
+
+#: src/libaudcore/playlist-files.cc:161 src/libaudqt/eq-preset-qt.cc:319
+#, c-format
+msgid "Error saving %s."
+msgstr "Chyba během ukládání %s."
+
+#: src/libaudcore/playlist-files.cc:167
+#, c-format
+msgid "Cannot save %s: unsupported file name extension."
+msgstr "Nemohu uložit %s: nepodporovaná přípona souboru."
+
+#: src/libaudcore/probe.cc:55
+msgid "Error loading plugin"
+msgstr "Chyba při nahrávání přídavného modulu"
+
+#: src/libaudcore/probe.cc:180
+msgid "Seek error"
+msgstr "Chyba při hledání"
+
+#: src/libaudcore/probe.cc:188
+msgid ""
+"The file format could not be determined. The format may be unsupported, or a "
+"necessary plugin may not be installed/enabled."
+msgstr ""
+
+#: src/libaudcore/probe.cc:229
+msgid ""
+"The file could not be decoded. It may be invalid, corrupt, or in an "
+"unsupported format."
+msgstr ""
+
+#: src/libaudcore/tuple.cc:596
+msgid "Mono"
+msgstr "Mono"
+
+#: src/libaudcore/tuple.cc:598
+msgid "Stereo"
+msgstr "Stereo"
+
+#: src/libaudcore/tuple.cc:601
+#, c-format
+msgid "%d channel"
+msgid_plural "%d channels"
+msgstr[0] "%d kanál"
+msgstr[1] "%d kanály"
+msgstr[2] "%d kanálů"
+msgstr[3] "%d kanálů"
+
+#: src/libaudcore/tuple.cc:819
+msgid "Audio CD"
+msgstr "Zvukové CD"
+
+#: src/libaudcore/tuple.cc:903
+#, c-format
+msgid "Track %d"
+msgstr "Stopa %d"
+
+#: src/libaudcore/tuple.cc:909
+msgid "(unknown title)"
+msgstr "(neznámý název)"
+
+#: src/libaudcore/vfs.cc:79
+msgid "Unknown URI scheme"
+msgstr "Neznámé schéma URI"
+
+#: src/libaudcore/vfs_local.cc:86 src/libaudcore/vfs_local.cc:330
+#: src/libaudcore/vfs_local.cc:386
+msgid "Invalid file name"
+msgstr "Neplatné jméno souboru"
+
+#: src/libaudcore/vfs_local.cc:134
+msgid "Invalid access mode"
+msgstr "Chybný režim přístupu"
+
+#: src/libaudgui/about.cc:37 src/libaudqt/about-qt.cc:37
+msgid "Credits"
+msgstr "Zásluhy"
+
+#: src/libaudgui/about.cc:37 src/libaudqt/about-qt.cc:37
+msgid "License"
+msgstr "Licence"
+
+#: src/libaudgui/about.cc:73 src/libaudqt/about-qt.cc:64
+msgid "About Audacious"
+msgstr "O Audacious"
+
+#: src/libaudgui/confirm.cc:33 src/libaudgui/jump-to-time.cc:48
+#: src/libaudgui/playlists.cc:93 src/libaudgui/playlists.cc:190
+#: src/libaudgui/plugin-prefs.cc:162 src/libaudgui/url-opener.cc:105
+#: src/libaudqt/playlist-management.cc:42
+#: src/libaudqt/playlist-management.cc:60 src/libaudqt/prefs-plugin.cc:141
+#: src/libaudqt/url-opener-qt.cc:81
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: src/libaudgui/confirm.cc:48 src/libaudqt/playlist-management.cc:58
+msgid "_Don’t ask again"
+msgstr "_Neptat se znovu"
+
+#: src/libaudgui/confirm.cc:67 src/libaudqt/playlist-management.cc:66
+#, c-format
+msgid "Do you want to permanently remove “%s”?"
+msgstr "Opravdu chcete trvale odstranit \"%s\"?"
+
+#: src/libaudgui/confirm.cc:70 src/libaudqt/playlist-management.cc:59
+msgid "_Remove"
+msgstr "_Smazat"
+
+#: src/libaudgui/confirm.cc:73 src/libaudqt/playlist-management.cc:63
+msgid "Remove Playlist"
+msgstr "Smazat playlist"
+
+#: src/libaudgui/confirm.cc:92 src/libaudqt/playlist-management.cc:40
+msgid "What would you like to call this playlist?"
+msgstr "Chcete načíst tento playlist?"
+
+#: src/libaudgui/confirm.cc:93 src/libaudqt/playlist-management.cc:41
+msgid "_Rename"
+msgstr "_Přejmenovat"
+
+#: src/libaudgui/confirm.cc:94 src/libaudqt/playlist-management.cc:38
+msgid "Rename Playlist"
+msgstr "Přejmenovat seznam skladeb"
+
+#: src/libaudgui/eq-preset.cc:154
+msgid "Please select one preset to export."
+msgstr "Prosím vyberte předvolbu pro export."
+
+#: src/libaudgui/eq-preset.cc:257 src/libaudgui/eq-preset.cc:262
+msgid "Preset File ..."
+msgstr "Soubor předvoleb ..."
+
+#: src/libaudgui/eq-preset.cc:258 src/libaudgui/eq-preset.cc:263
+msgid "EQF File ..."
+msgstr "Soubor EQF ..."
+
+#: src/libaudgui/eq-preset.cc:267 src/libaudqt/eq-preset-qt.cc:339
+#: src/libaudqt/fileopener.cc:110
+msgid "Import"
+msgstr "Import"
+
+#: src/libaudgui/eq-preset.cc:268 src/libaudqt/eq-preset-qt.cc:342
+#: src/libaudqt/fileopener.cc:110
+msgid "Export"
+msgstr "Export"
+
+#: src/libaudgui/eq-preset.cc:283 src/libaudqt/eq-preset-qt.cc:405
+msgid "Equalizer Presets"
+msgstr "Předvolby ekvalizéru"
+
+#: src/libaudgui/eq-preset.cc:306 src/libaudqt/eq-preset-qt.cc:330
+msgid "Save Preset"
+msgstr "Ulož předvolbu"
+
+#: src/libaudgui/eq-preset.cc:328
+msgid "Delete Selected"
+msgstr "Smaž vybrané"
+
+#: src/libaudgui/eq-preset.cc:332
+msgid "Revert Changes"
+msgstr "Zvrátit změny"
+
+#: src/libaudgui/equalizer.cc:46 src/libaudqt/equalizer-qt.cc:120
+msgid "_Enable"
+msgstr "_Zapnout"
+
+#: src/libaudgui/equalizer.cc:128 src/libaudqt/equalizer-qt.cc:123
+msgid "31 Hz"
+msgstr "31 Hz"
+
+#: src/libaudgui/equalizer.cc:128 src/libaudqt/equalizer-qt.cc:123
+msgid "63 Hz"
+msgstr "63 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:123
+msgid "125 Hz"
+msgstr "125 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:123
+msgid "250 Hz"
+msgstr "250 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:123
+msgid "500 Hz"
+msgstr "500 Hz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:124
+msgid "1 kHz"
+msgstr "1 kHz"
+
+#: src/libaudgui/equalizer.cc:129 src/libaudqt/equalizer-qt.cc:124
+msgid "2 kHz"
+msgstr "2 kHz"
+
+#: src/libaudgui/equalizer.cc:130 src/libaudqt/equalizer-qt.cc:124
+msgid "4 kHz"
+msgstr "4 kHz"
+
+#: src/libaudgui/equalizer.cc:130 src/libaudqt/equalizer-qt.cc:124
+msgid "8 kHz"
+msgstr "8 kHz"
+
+#: src/libaudgui/equalizer.cc:130 src/libaudqt/equalizer-qt.cc:124
+msgid "16 kHz"
+msgstr "16 kHz"
+
+#: src/libaudgui/equalizer.cc:133 src/libaudqt/equalizer-qt.cc:210
+msgid "Equalizer"
+msgstr "Ekvalizér"
+
+#: src/libaudgui/equalizer.cc:148 src/libaudqt/equalizer-qt.cc:144
+msgid "Presets ..."
+msgstr "Předvolby ..."
+
+#: src/libaudgui/equalizer.cc:152 src/libaudqt/equalizer-qt.cc:143
+msgid "Reset to Zero"
+msgstr "Reset na nulu"
+
+#: src/libaudgui/equalizer.cc:159 src/libaudqt/equalizer-qt.cc:129
+msgid "Preamp"
+msgstr "Předzesílení"
+
+#: src/libaudgui/file-opener.cc:79 src/libaudqt/fileopener.cc:105
+msgid "Open Files"
+msgstr "Otevřít soubory"
+
+#: src/libaudgui/file-opener.cc:80 src/libaudgui/url-opener.cc:68
+#: src/libaudqt/url-opener-qt.cc:48
+msgid "_Open"
+msgstr "_Otevřít"
+
+#: src/libaudgui/file-opener.cc:82
+msgid "Close _dialog on open"
+msgstr "Zavřít _dialog při otevření"
+
+#: src/libaudgui/file-opener.cc:87 src/libaudqt/fileopener.cc:105
+msgid "Add Files"
+msgstr "Přidat soubory"
+
+#: src/libaudgui/file-opener.cc:88 src/libaudgui/url-opener.cc:74
+#: src/libaudqt/url-opener-qt.cc:54
+msgid "_Add"
+msgstr "_Přidat"
+
+#: src/libaudgui/file-opener.cc:90
+msgid "Close _dialog on add"
+msgstr "Zavřít _dialog při přidání"
+
+#: src/libaudgui/file-opener.cc:139 src/libaudgui/infowin.cc:443
+#: src/libaudgui/jump-to-track.cc:324 src/libaudgui/plugin-prefs.cc:168
+#: src/libaudgui/prefs-window.cc:942 src/libaudgui/queue-manager.cc:195
+#: src/libaudgui/util.cc:355 src/libaudqt/audqt.cc:330
+#: src/libaudqt/infowin-qt.cc:93 src/libaudqt/log-inspector.cc:245
+#: src/libaudqt/prefs-plugin.cc:152 src/libaudqt/prefs-window-qt.cc:702
+#: src/libaudqt/song-window-qt.cc:376
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: src/libaudgui/infopopup.cc:216 src/libaudgui/infowin.cc:402
+#: src/libaudgui/prefs-window.cc:105 src/libaudqt/infopopup-qt.cc:95
+#: src/libaudqt/info-widget.cc:50 src/libaudqt/prefs-window-qt.cc:172
+#: src/libaudqt/queue-manager-qt.cc:128
+msgid "Title"
+msgstr "Název"
+
+#: src/libaudgui/infopopup.cc:217 src/libaudgui/infowin.cc:405
+#: src/libaudgui/prefs-window.cc:102 src/libaudqt/infopopup-qt.cc:97
+#: src/libaudqt/info-widget.cc:51 src/libaudqt/prefs-window-qt.cc:169
+msgid "Artist"
+msgstr "Umělec"
+
+#: src/libaudgui/infopopup.cc:218 src/libaudgui/infowin.cc:408
+#: src/libaudgui/prefs-window.cc:103 src/libaudgui/prefs-window.cc:151
+#: src/libaudqt/infopopup-qt.cc:99 src/libaudqt/info-widget.cc:52
+#: src/libaudqt/prefs-window-qt.cc:170 src/libaudqt/prefs-window-qt.cc:213
+msgid "Album"
+msgstr "Album"
+
+#: src/libaudgui/infopopup.cc:219 src/libaudgui/infowin.cc:418
+#: src/libaudgui/prefs-window.cc:107 src/libaudqt/infopopup-qt.cc:101
+#: src/libaudqt/info-widget.cc:55 src/libaudqt/prefs-window-qt.cc:174
+msgid "Genre"
+msgstr "Žánr"
+
+#: src/libaudgui/infopopup.cc:220 src/libaudgui/infowin.cc:421
+#: src/libaudgui/prefs-window.cc:112 src/libaudqt/infopopup-qt.cc:103
+#: src/libaudqt/prefs-window-qt.cc:179
+msgid "Year"
+msgstr "Rok"
+
+#: src/libaudgui/infopopup.cc:221 src/libaudgui/prefs-window.cc:150
+#: src/libaudqt/infopopup-qt.cc:105 src/libaudqt/prefs-window-qt.cc:212
+msgid "Track"
+msgstr "Stopa"
+
+#: src/libaudgui/infopopup.cc:222 src/libaudqt/infopopup-qt.cc:107
+msgid "Disc"
+msgstr ""
+
+#: src/libaudgui/infopopup.cc:223 src/libaudqt/infopopup-qt.cc:109
+#: src/libaudqt/info-widget.cc:68
+msgid "Length"
+msgstr "Délka"
+
+#: src/libaudgui/infowin.cc:51
+msgid "Format:"
+msgstr "Formát:"
+
+#: src/libaudgui/infowin.cc:52
+msgid "Quality:"
+msgstr "Kvalita:"
+
+#: src/libaudgui/infowin.cc:53
+msgid "Bitrate:"
+msgstr "Datový tok Bitrate: "
+
+#: src/libaudgui/infowin.cc:87
+msgid "Acid Jazz"
+msgstr "Acid jazz"
+
+#: src/libaudgui/infowin.cc:88
+msgid "Acid Rock"
+msgstr "Acid rock"
+
+#: src/libaudgui/infowin.cc:89
+msgid "Ambient"
+msgstr "Ambient"
+
+#: src/libaudgui/infowin.cc:90
+msgid "Bebop"
+msgstr "Bebob"
+
+#: src/libaudgui/infowin.cc:91
+msgid "Bluegrass"
+msgstr "Bluegrass"
+
+#: src/libaudgui/infowin.cc:92
+msgid "Blues"
+msgstr "Blues"
+
+#: src/libaudgui/infowin.cc:93
+msgid "Chamber Music"
+msgstr "Komorní hudba"
+
+#: src/libaudgui/infowin.cc:94
+msgid "Classical"
+msgstr "Klasika"
+
+#: src/libaudgui/infowin.cc:95
+msgid "Country"
+msgstr "Country"
+
+#: src/libaudgui/infowin.cc:96
+msgid "Death Metal"
+msgstr "Death Metal"
+
+#: src/libaudgui/infowin.cc:97
+msgid "Disco"
+msgstr "Disko"
+
+#: src/libaudgui/infowin.cc:98
+msgid "Easy Listening"
+msgstr "Příjemné poslouchání"
+
+#: src/libaudgui/infowin.cc:99
+msgid "Folk"
+msgstr "Folk"
+
+#: src/libaudgui/infowin.cc:100
+msgid "Funk"
+msgstr "Funk"
+
+#: src/libaudgui/infowin.cc:101
+msgid "Gangsta Rap"
+msgstr "Gangsta Rap"
+
+#: src/libaudgui/infowin.cc:102
+msgid "Gospel"
+msgstr "Gospel"
+
+#: src/libaudgui/infowin.cc:103
+msgid "Grunge"
+msgstr "Grunge"
+
+#: src/libaudgui/infowin.cc:104
+msgid "Hard Rock"
+msgstr "Hard rock"
+
+#: src/libaudgui/infowin.cc:105
+msgid "Heavy Metal"
+msgstr "Heavy metal"
+
+#: src/libaudgui/infowin.cc:106
+msgid "Hip-hop"
+msgstr "Hip hop"
+
+#: src/libaudgui/infowin.cc:107
+msgid "House"
+msgstr "House"
+
+#: src/libaudgui/infowin.cc:108
+msgid "Jazz"
+msgstr "Jazz"
+
+#: src/libaudgui/infowin.cc:109
+msgid "Jungle"
+msgstr "Jungle"
+
+#: src/libaudgui/infowin.cc:110
+msgid "Metal"
+msgstr "Metal"
+
+#: src/libaudgui/infowin.cc:111
+msgid "New Age"
+msgstr "New Age"
+
+#: src/libaudgui/infowin.cc:112
+msgid "New Wave"
+msgstr "Nová vlna"
+
+#: src/libaudgui/infowin.cc:113
+msgid "Noise"
+msgstr "Noise"
+
+#: src/libaudgui/infowin.cc:114
+msgid "Pop"
+msgstr "Pop"
+
+#: src/libaudgui/infowin.cc:115
+msgid "Punk Rock"
+msgstr "Punk rock"
+
+#: src/libaudgui/infowin.cc:116
+msgid "Rap"
+msgstr "Rap"
+
+#: src/libaudgui/infowin.cc:117
+msgid "Reggae"
+msgstr "Reggae"
+
+#: src/libaudgui/infowin.cc:118
+msgid "Rock"
+msgstr "Rock"
+
+#: src/libaudgui/infowin.cc:119
+msgid "Rock and Roll"
+msgstr "Rock and roll"
+
+#: src/libaudgui/infowin.cc:120
+msgid "Rhythm and Blues"
+msgstr "R&B"
+
+#: src/libaudgui/infowin.cc:121
+msgid "Ska"
+msgstr "Ska"
+
+#: src/libaudgui/infowin.cc:122
+msgid "Soul"
+msgstr "Soul"
+
+#: src/libaudgui/infowin.cc:123
+msgid "Swing"
+msgstr "Swing"
+
+#: src/libaudgui/infowin.cc:124
+msgid "Techno"
+msgstr "Techno"
+
+#: src/libaudgui/infowin.cc:125
+msgid "Trip-hop"
+msgstr "Trip hop"
+
+#: src/libaudgui/infowin.cc:232
+msgid "Save successful"
+msgstr "Ukládání proběhlo úspěšně"
+
+#: src/libaudgui/infowin.cc:236
+msgid "Save error"
+msgstr "Chyba při ukládání"
+
+#: src/libaudgui/infowin.cc:333 src/libaudgui/prefs-window.cc:87
+#: src/libaudqt/infowin-qt.cc:64 src/libaudqt/prefs-window-qt.cc:164
+msgid "Song Info"
+msgstr "Informace o skladbě"
+
+#: src/libaudgui/infowin.cc:411 src/libaudqt/info-widget.cc:53
+msgid "Album Artist"
+msgstr "Album Umělec"
+
+#: src/libaudgui/infowin.cc:414 src/libaudgui/prefs-window.cc:113
+#: src/libaudqt/info-widget.cc:56 src/libaudqt/prefs-window-qt.cc:180
+msgid "Comment"
+msgstr "Komentář"
+
+#: src/libaudgui/infowin.cc:424 src/libaudqt/info-widget.cc:54
+msgid "Track Number"
+msgstr "Číslo stopy"
+
+#: src/libaudgui/infowin.cc:426
+msgid "_Auto-fill empty fields"
+msgstr "_Automaticky vyplnit prázdná pole"
+
+#: src/libaudgui/infowin.cc:440 src/libaudqt/infowin-qt.cc:121
+msgid "_Save"
+msgstr "_Ulozit"
+
+#: src/libaudgui/infowin.cc:446
+msgid "_Previous"
+msgstr "_Předchozí"
+
+#: src/libaudgui/infowin.cc:449
+msgid "_Next"
+msgstr "_Další"
+
+#: src/libaudgui/infowin.cc:498
+#, c-format
+msgid "%d kbit/s"
+msgstr ""
+
+#: src/libaudgui/infowin.cc:503
+msgid "N/A"
+msgstr "Nedostupné"
+
+#: src/libaudgui/jump-to-time.cc:47 src/libaudgui/jump-to-track.cc:329
+#: src/libaudqt/song-window-qt.cc:373
+msgid "_Jump"
+msgstr "_Přeskočit"
+
+#: src/libaudgui/jump-to-time.cc:51
+msgid "Jump to Time"
+msgstr "Přejít na čas"
+
+#: src/libaudgui/jump-to-time.cc:51
+msgid "Enter time (minutes:seconds):"
+msgstr "Zadejte čas (minuty: sekundy):"
+
+#: src/libaudgui/jump-to-track.cc:96 src/libaudgui/jump-to-track.cc:104
+#: src/libaudgui/jump-to-track.cc:320 src/libaudqt/song-window-qt.cc:290
+#: src/libaudqt/song-window-qt.cc:371
+msgid "_Queue"
+msgstr "_Fronta"
+
+#: src/libaudgui/jump-to-track.cc:102 src/libaudqt/song-window-qt.cc:290
+msgid "Un_queue"
+msgstr "Ode_brat z fronty"
+
+#: src/libaudgui/jump-to-track.cc:252 src/libaudqt/song-window-qt.cc:305
+msgid "Jump to Song"
+msgstr "Přejít na skladbu"
+
+#: src/libaudgui/jump-to-track.cc:278 src/libaudqt/song-window-qt.cc:322
+msgid "_Filter:"
+msgstr "_Filtr:"
+
+#: src/libaudgui/jump-to-track.cc:313 src/libaudqt/song-window-qt.cc:366
+msgid "C_lose on jump"
+msgstr "Zavřít při skoku"
+
+#: src/libaudgui/playlists.cc:92
+msgid "_Overwrite"
+msgstr "_Přepsat"
+
+#: src/libaudgui/playlists.cc:96
+msgid "Confirm Overwrite"
+msgstr "Potvrdit přepsání"
+
+#: src/libaudgui/playlists.cc:96
+#, c-format
+msgid "Overwrite %s?"
+msgstr "Přepsat %s?"
+
+#: src/libaudgui/playlists.cc:122 src/libaudqt/fileopener.cc:65
+msgid ""
+"Please type a filename extension or select a format from the drop-down list."
+msgstr "Prosím napiš příponu souboru nebo vyber formát ze seznamu"
+
+#: src/libaudgui/playlists.cc:141 src/libaudqt/fileopener.cc:72
+msgid "Select Format by Extension"
+msgstr "Vyber formát podle přípony"
+
+#: src/libaudgui/playlists.cc:168 src/libaudqt/fileopener.cc:106
+msgid "Export Playlist"
+msgstr "Exportovat seznam skladeb"
+
+#: src/libaudgui/playlists.cc:169
+msgid "_Export"
+msgstr "_Exportovat"
+
+#: src/libaudgui/playlists.cc:175 src/libaudqt/fileopener.cc:106
+msgid "Import Playlist"
+msgstr "Importovat seznam skladeb"
+
+#: src/libaudgui/playlists.cc:176
+msgid "_Import"
+msgstr "_Importovat"
+
+#: src/libaudgui/plugin-menu.cc:40 src/libaudqt/plugin-menu-qt.cc:44
+msgid "_Plugins ..."
+msgstr "_Doplňky ..."
+
+#: src/libaudgui/plugin-prefs.cc:110 src/libaudqt/prefs-plugin.cc:61
+#, c-format
+msgid "About %s"
+msgstr "O %s"
+
+#: src/libaudgui/plugin-prefs.cc:156 src/libaudqt/prefs-plugin.cc:126
+#, c-format
+msgid "%s Settings"
+msgstr "%s Nastavení"
+
+#: src/libaudgui/plugin-prefs.cc:161 src/libaudqt/prefs-plugin.cc:139
+msgid "_Set"
+msgstr "_Nastavit"
+
+#: src/libaudgui/plugin-view.cc:236 src/libaudgui/prefs-window.cc:754
+#: src/libaudgui/prefs-window.cc:794 src/libaudqt/prefs-window-qt.cc:647
+#: src/libaudqt/prefs-window-qt.cc:650
+msgid "_Settings"
+msgstr "_Nastavení"
+
+#: src/libaudgui/plugin-view.cc:243 src/libaudgui/prefs-window.cc:768
+#: src/libaudgui/prefs-window.cc:806 src/libaudqt/prefs-window-qt.cc:648
+#: src/libaudqt/prefs-window-qt.cc:651
+msgid "_About"
+msgstr "_O programu"
+
+#: src/libaudgui/prefs-widget.cc:323 src/libaudqt/prefs-widget-qt.cc:238
+msgid "Choose File"
+msgstr "Vybrat soubor"
+
+#: src/libaudgui/prefs-widget.cc:327 src/libaudqt/prefs-widget-qt.cc:242
+msgid "Choose Folder"
+msgstr "Vybrat složku"
+
+#: src/libaudgui/prefs-window.cc:83 src/libaudqt/prefs-window-qt.cc:160
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: src/libaudgui/prefs-window.cc:84 src/libaudqt/prefs-window-qt.cc:161
+msgid "Audio"
+msgstr "Zvuk"
+
+#: src/libaudgui/prefs-window.cc:85 src/libaudqt/prefs-window-qt.cc:162
+msgid "Network"
+msgstr "Síť"
+
+#: src/libaudgui/prefs-window.cc:86 src/libaudgui/prefs-window.cc:97
+#: src/libaudqt/prefs-pluginlist-model.cc:43
+#: src/libaudqt/prefs-window-qt.cc:163
+msgid "Playlist"
+msgstr "Seznam skladeb"
+
+#: src/libaudgui/prefs-window.cc:88 src/libaudqt/prefs-window-qt.cc:165
+msgid "Plugins"
+msgstr "Moduly"
+
+#: src/libaudgui/prefs-window.cc:89 src/libaudqt/prefs-window-qt.cc:166
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: src/libaudgui/prefs-window.cc:93 src/libaudqt/prefs-pluginlist-model.cc:39
+msgid "General"
+msgstr "Obecné"
+
+#: src/libaudgui/prefs-window.cc:94 src/libaudqt/prefs-pluginlist-model.cc:40
+msgid "Effect"
+msgstr "Efekt"
+
+#: src/libaudgui/prefs-window.cc:95 src/libaudqt/prefs-pluginlist-model.cc:41
+msgid "Visualization"
+msgstr "Znázornění"
+
+#: src/libaudgui/prefs-window.cc:96 src/libaudqt/prefs-pluginlist-model.cc:42
+msgid "Input"
+msgstr "Vstup"
+
+#: src/libaudgui/prefs-window.cc:98 src/libaudqt/prefs-pluginlist-model.cc:44
+msgid "Transport"
+msgstr "Přenos"
+
+#: src/libaudgui/prefs-window.cc:104 src/libaudqt/prefs-window-qt.cc:171
+msgid "Album artist"
+msgstr "Umělec alba"
+
+#: src/libaudgui/prefs-window.cc:106 src/libaudqt/prefs-window-qt.cc:173
+msgid "Track number"
+msgstr "Číslo stopy"
+
+#: src/libaudgui/prefs-window.cc:108 src/libaudqt/prefs-window-qt.cc:175
+msgid "File name"
+msgstr "Jméno souboru"
+
+#: src/libaudgui/prefs-window.cc:109 src/libaudqt/prefs-window-qt.cc:176
+msgid "File path"
+msgstr "Cesta k souboru"
+
+#: src/libaudgui/prefs-window.cc:110 src/libaudqt/prefs-window-qt.cc:177
+msgid "Date"
+msgstr "Datum"
+
+#: src/libaudgui/prefs-window.cc:111 src/libaudqt/info-widget.cc:57
+#: src/libaudqt/prefs-window-qt.cc:178
+msgid "Description"
+msgstr "Popis"
+
+#: src/libaudgui/prefs-window.cc:114 src/libaudqt/info-widget.cc:69
+#: src/libaudqt/prefs-window-qt.cc:181
+msgid "Codec"
+msgstr "Kodek"
+
+#: src/libaudgui/prefs-window.cc:115 src/libaudqt/info-widget.cc:70
+#: src/libaudqt/prefs-window-qt.cc:182
+msgid "Quality"
+msgstr "Kvalita"
+
+#: src/libaudgui/prefs-window.cc:116 src/libaudqt/prefs-window-qt.cc:183
+msgid "Disc number"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:120 src/libaudqt/prefs-window-qt.cc:186
+msgid "None"
+msgstr "Žádné"
+
+#: src/libaudgui/prefs-window.cc:121 src/libaudqt/prefs-window-qt.cc:187
+msgid "Arabic"
+msgstr "Arabština"
+
+#: src/libaudgui/prefs-window.cc:122 src/libaudqt/prefs-window-qt.cc:188
+msgid "Baltic"
+msgstr "Baltské jazyky"
+
+#: src/libaudgui/prefs-window.cc:123 src/libaudqt/prefs-window-qt.cc:189
+msgid "Chinese"
+msgstr "Čínština"
+
+#: src/libaudgui/prefs-window.cc:124 src/libaudqt/prefs-window-qt.cc:190
+msgid "Greek"
+msgstr "Řečtina"
+
+#: src/libaudgui/prefs-window.cc:125 src/libaudqt/prefs-window-qt.cc:191
+msgid "Hebrew"
+msgstr "Hebrejština"
+
+#: src/libaudgui/prefs-window.cc:126 src/libaudqt/prefs-window-qt.cc:192
+msgid "Japanese"
+msgstr "Japonština"
+
+#: src/libaudgui/prefs-window.cc:127 src/libaudqt/prefs-window-qt.cc:193
+msgid "Korean"
+msgstr "Korejština"
+
+#: src/libaudgui/prefs-window.cc:128 src/libaudqt/prefs-window-qt.cc:194
+msgid "Polish"
+msgstr "Polština"
+
+#: src/libaudgui/prefs-window.cc:129 src/libaudqt/prefs-window-qt.cc:195
+msgid "Russian"
+msgstr "Ruština"
+
+#: src/libaudgui/prefs-window.cc:130 src/libaudqt/prefs-window-qt.cc:196
+msgid "Taiwanese"
+msgstr "Tchajwanština"
+
+#: src/libaudgui/prefs-window.cc:131 src/libaudqt/prefs-window-qt.cc:197
+msgid "Turkish"
+msgstr "Turečtina"
+
+#: src/libaudgui/prefs-window.cc:135 src/libaudqt/prefs-window-qt.cc:200
+msgid "Automatic"
+msgstr "Automaticky"
+
+#: src/libaudgui/prefs-window.cc:139 src/libaudqt/prefs-window-qt.cc:201
+msgid "Floating point"
+msgstr "Plovoucí desetiná čárka"
+
+#: src/libaudgui/prefs-window.cc:143 src/libaudqt/prefs-window-qt.cc:204
+msgid "As decoded"
+msgstr "Dekódováno"
+
+#: src/libaudgui/prefs-window.cc:144 src/libaudqt/prefs-window-qt.cc:205
+msgid "After applying ReplayGain"
+msgstr "Po použití ReplayGain"
+
+#: src/libaudgui/prefs-window.cc:145 src/libaudqt/prefs-window-qt.cc:207
+msgid "After applying effects"
+msgstr "Po použití efektů"
+
+#: src/libaudgui/prefs-window.cc:146 src/libaudqt/prefs-window-qt.cc:208
+msgid "After applying equalization"
+msgstr "Po použití ekvalizace"
+
+#: src/libaudgui/prefs-window.cc:152 src/libaudqt/prefs-window-qt.cc:214
+msgid "Based on shuffle"
+msgstr "Na základě přeházení"
+
+#: src/libaudgui/prefs-window.cc:167
+msgid "Restart in Qt mode"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:176
+msgid "Audacious is running in GTK mode."
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:180
+msgid "Qt mode is unavailable in this build."
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:182 src/libaudqt/prefs-window-qt.cc:270
+msgid "Interface:"
+msgstr "Rozhraní:"
+
+#: src/libaudgui/prefs-window.cc:201 src/libaudqt/prefs-window-qt.cc:284
+msgid "Output plugin:"
+msgstr "Výstupní modul:"
+
+#: src/libaudgui/prefs-window.cc:222 src/libaudqt/prefs-window-qt.cc:297
+msgid "Amplify all files:"
+msgstr "Zesílit všechny soubory:"
+
+#: src/libaudgui/prefs-window.cc:224 src/libaudgui/prefs-window.cc:227
+#: src/libaudqt/prefs-window-qt.cc:298 src/libaudqt/prefs-window-qt.cc:300
+msgid "dB"
+msgstr "dB"
+
+#: src/libaudgui/prefs-window.cc:225 src/libaudqt/prefs-window-qt.cc:299
+msgid "Amplify untagged files:"
+msgstr "Zesílit soubory bez popisků:"
+
+#: src/libaudgui/prefs-window.cc:231 src/libaudqt/prefs-window-qt.cc:303
+msgid "<b>Output Settings</b>"
+msgstr "<b>Nastavení výstupu</b>"
+
+#: src/libaudgui/prefs-window.cc:233 src/libaudqt/prefs-window-qt.cc:305
+msgid "Bit depth:"
+msgstr "Bitová hloubka:"
+
+#: src/libaudgui/prefs-window.cc:236 src/libaudgui/prefs-window.cc:281
+#: src/libaudqt/prefs-window-qt.cc:308 src/libaudqt/prefs-window-qt.cc:336
+msgid "Buffer size:"
+msgstr "Velikost vyrovnávací paměti:"
+
+#: src/libaudgui/prefs-window.cc:238 src/libaudqt/prefs-window-qt.cc:309
+msgid "ms"
+msgstr "ms"
+
+#: src/libaudgui/prefs-window.cc:239 src/libaudqt/prefs-window-qt.cc:310
+msgid "Soft clipping"
+msgstr "Měkké oříznutí"
+
+#: src/libaudgui/prefs-window.cc:241 src/libaudqt/prefs-window-qt.cc:311
+msgid "Use software volume control (not recommended)"
+msgstr "Hlasitost ovládat softwarově (nedoporučuje se)"
+
+#: src/libaudgui/prefs-window.cc:243 src/libaudqt/prefs-window-qt.cc:313
+msgid "<b>Recording Settings</b>"
+msgstr "<b>Nastavení záznamu</b>"
+
+#: src/libaudgui/prefs-window.cc:247 src/libaudqt/prefs-window-qt.cc:316
+msgid "Record stream:"
+msgstr "Zaznamenat proud:"
+
+#: src/libaudgui/prefs-window.cc:250 src/libaudqt/prefs-window-qt.cc:318
+msgid "<b>ReplayGain</b>"
+msgstr "<b>ReplayGain</b>"
+
+#: src/libaudgui/prefs-window.cc:251 src/libaudqt/prefs-window-qt.cc:319
+msgid "Enable ReplayGain"
+msgstr "Povolit ReplayGain"
+
+#: src/libaudgui/prefs-window.cc:253 src/libaudqt/prefs-window-qt.cc:320
+msgid "Mode:"
+msgstr "Mód:"
+
+#: src/libaudgui/prefs-window.cc:257 src/libaudqt/prefs-window-qt.cc:322
+msgid "Prevent clipping (recommended)"
+msgstr "Předcházet ořezu (doporučuje se)"
+
+#: src/libaudgui/prefs-window.cc:265 src/libaudqt/prefs-window-qt.cc:327
+msgid "Proxy hostname:"
+msgstr "Jméno počítače:"
+
+#: src/libaudgui/prefs-window.cc:267 src/libaudqt/prefs-window-qt.cc:328
+msgid "Proxy port:"
+msgstr "Port:"
+
+#: src/libaudgui/prefs-window.cc:272 src/libaudqt/prefs-window-qt.cc:331
+msgid "Proxy username:"
+msgstr "Jméno:"
+
+#: src/libaudgui/prefs-window.cc:274 src/libaudqt/prefs-window-qt.cc:332
+msgid "Proxy password:"
+msgstr "Heslo:"
+
+#: src/libaudgui/prefs-window.cc:280 src/libaudqt/prefs-window-qt.cc:335
+msgid "<b>Network Settings</b>"
+msgstr "<b>Síťová nastavení</b>"
+
+#: src/libaudgui/prefs-window.cc:283 src/libaudqt/prefs-window-qt.cc:337
+msgid "KiB"
+msgstr "KiB"
+
+#: src/libaudgui/prefs-window.cc:284 src/libaudqt/prefs-window-qt.cc:338
+msgid "<b>Proxy Configuration</b>"
+msgstr "<b>Nastavení proxy</b>"
+
+#: src/libaudgui/prefs-window.cc:285 src/libaudqt/prefs-window-qt.cc:339
+msgid "Enable proxy usage"
+msgstr "Používat proxy"
+
+#: src/libaudgui/prefs-window.cc:289 src/libaudqt/prefs-window-qt.cc:341
+msgid "Use authentication with proxy"
+msgstr "Použít ověřování pomocí proxy serveru"
+
+#: src/libaudgui/prefs-window.cc:293 src/libaudqt/prefs-window-qt.cc:344
+msgid "Use SOCKS proxy"
+msgstr "Použít SOCKS proxy"
+
+#: src/libaudgui/prefs-window.cc:295 src/libaudqt/prefs-window-qt.cc:345
+msgid "SOCKS v4a"
+msgstr "SOCKS v4a"
+
+#: src/libaudgui/prefs-window.cc:299 src/libaudqt/prefs-window-qt.cc:346
+msgid "SOCKS v5"
+msgstr "SOCKS v5"
+
+#: src/libaudgui/prefs-window.cc:306 src/libaudqt/prefs-window-qt.cc:349
+msgid "Auto character encoding detector for:"
+msgstr "Automatické rozpoznávání kódovaní znaků:"
+
+#: src/libaudgui/prefs-window.cc:309 src/libaudqt/prefs-window-qt.cc:352
+msgid "Fallback character encodings:"
+msgstr "Záložní kódování znaků:"
+
+#: src/libaudgui/prefs-window.cc:317 src/libaudqt/prefs-window-qt.cc:359
+msgid "<b>Behavior</b>"
+msgstr "<b>Chování</b>"
+
+#: src/libaudgui/prefs-window.cc:318 src/libaudqt/prefs-window-qt.cc:360
+msgid "Resume playback on startup"
+msgstr "Pokračovat v přehrávání po spuštění"
+
+#: src/libaudgui/prefs-window.cc:320 src/libaudqt/prefs-window-qt.cc:362
+msgid "Pause instead of resuming immediately"
+msgstr "Pozastavit namísto okamžitého pokračování v přehrávání"
+
+#: src/libaudgui/prefs-window.cc:323 src/libaudqt/prefs-window-qt.cc:364
+msgid "Advance when the current song is deleted"
+msgstr "Přejít dál, když současná skladba je smazána"
+
+#: src/libaudgui/prefs-window.cc:325 src/libaudqt/prefs-window-qt.cc:366
+msgid "Clear the playlist when opening files"
+msgstr "Při otevírání souborů vyprázdnit seznam skladeb"
+
+#: src/libaudgui/prefs-window.cc:327 src/libaudqt/prefs-window-qt.cc:368
+msgid "Open files in a temporary playlist"
+msgstr "Otevřít soubory do dočasného seznamu skladeb"
+
+#: src/libaudgui/prefs-window.cc:329 src/libaudqt/prefs-window-qt.cc:370
+msgid "Skip confirmation when removing a playlist"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:331 src/libaudqt/prefs-window-qt.cc:372
+msgid "<b>Song Display</b>"
+msgstr "<b>Zobrazení skladby</b>"
+
+#: src/libaudgui/prefs-window.cc:332 src/libaudqt/prefs-window-qt.cc:373
+msgid "Show song numbers"
+msgstr "Zobrazovat čísla skladeb"
+
+#: src/libaudgui/prefs-window.cc:334 src/libaudqt/prefs-window-qt.cc:375
+msgid "Show leading zeroes (02:00 vs. 2:00)"
+msgstr "Zobrazit úvodní nuly (02:00 oproti 2:00)"
+
+#: src/libaudgui/prefs-window.cc:336 src/libaudqt/prefs-window-qt.cc:377
+msgid "Show hours separately (1:30:00 vs. 90:00)"
+msgstr "Zobrazit hodiny odděleně (1:30:00 oproti 90:00)"
+
+#: src/libaudgui/prefs-window.cc:339 src/libaudqt/prefs-window-qt.cc:380
+msgid "<b>Export</b>"
+msgstr "<b>Exportovat</b>"
+
+#: src/libaudgui/prefs-window.cc:340 src/libaudqt/prefs-window-qt.cc:381
+msgid "Use relative paths when possible"
+msgstr "Použít relativní cesty kdykoliv je to možné"
+
+#: src/libaudgui/prefs-window.cc:345 src/libaudqt/prefs-window-qt.cc:385
+msgid "<b>Album Art</b>"
+msgstr "<b>Album</b>"
+
+#: src/libaudgui/prefs-window.cc:346 src/libaudqt/prefs-window-qt.cc:387
+msgid "Search for images matching these words (comma-separated):"
+msgstr "Vyhledat obrázky odpovídající těmto slovům (oddělené čárkou):"
+
+#: src/libaudgui/prefs-window.cc:348 src/libaudqt/prefs-window-qt.cc:389
+msgid "Exclude images matching these words (comma-separated):"
+msgstr "Vyloučit obrázky vyhovují těmto slovům (oddělené čárkou):"
+
+#: src/libaudgui/prefs-window.cc:350 src/libaudqt/prefs-window-qt.cc:391
+msgid "Search for images matching song file name"
+msgstr "Hledat obrázky odpovídající názvu hudebního souboru"
+
+#: src/libaudgui/prefs-window.cc:352 src/libaudqt/prefs-window-qt.cc:393
+msgid "Search recursively"
+msgstr "Hledat rekurzivně"
+
+#: src/libaudgui/prefs-window.cc:354 src/libaudqt/prefs-window-qt.cc:394
+msgid "Search depth:"
+msgstr "Hloubka prohledání:"
+
+#: src/libaudgui/prefs-window.cc:358 src/libaudqt/prefs-window-qt.cc:396
+msgid "<b>Popup Information</b>"
+msgstr "<b>Vyskakovací okno s podrobnostmi</b>"
+
+#: src/libaudgui/prefs-window.cc:359 src/libaudqt/prefs-window-qt.cc:397
+msgid "Show popup information"
+msgstr "Zobrazit informace ve vyskakovacím oknu"
+
+#: src/libaudgui/prefs-window.cc:361 src/libaudqt/prefs-window-qt.cc:399
+msgid "Popup delay (tenths of a second):"
+msgstr "Popup zpoždění (desetiny sekundy):"
+
+#: src/libaudgui/prefs-window.cc:365
+msgid "Show time scale for current song"
+msgstr "Zobrazit časové měřítko pro aktuální skladby"
+
+#: src/libaudgui/prefs-window.cc:371 src/libaudqt/prefs-window-qt.cc:403
+msgid "<b>Compatibility</b>"
+msgstr "<b>Kompatibilita</b>"
+
+#: src/libaudgui/prefs-window.cc:373 src/libaudqt/prefs-window-qt.cc:405
+msgid "Use Xwayland (requires a restart to take effect)"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:376 src/libaudqt/prefs-window-qt.cc:408
+msgid "Interpret \\ (backward slash) as a folder delimiter"
+msgstr "Interpretovat \\ (zpětné lomítko) jako oddělovač složek"
+
+#: src/libaudgui/prefs-window.cc:379 src/libaudqt/prefs-window-qt.cc:411
+msgid "<b>Playlist</b>"
+msgstr "<b>Playlist</b>"
+
+#: src/libaudgui/prefs-window.cc:380 src/libaudqt/prefs-window-qt.cc:412
+msgid "Add folders recursively"
+msgstr "Přidat složky rekurzivně"
+
+#: src/libaudgui/prefs-window.cc:382 src/libaudqt/prefs-window-qt.cc:414
+msgid "Add folders nested within playlist files"
+msgstr "Přidat složky vnořené do souborů playlistu"
+
+#: src/libaudgui/prefs-window.cc:384 src/libaudqt/prefs-window-qt.cc:416
+msgid "<b>Metadata</b>"
+msgstr "<b>Metadata</b>"
+
+#: src/libaudgui/prefs-window.cc:385 src/libaudqt/prefs-window-qt.cc:417
+msgid "Guess missing metadata from file path"
+msgstr "Uhodnout chybějící metadata z cesty souboru"
+
+#: src/libaudgui/prefs-window.cc:387 src/libaudqt/prefs-window-qt.cc:419
+msgid "Do not load metadata for songs until played"
+msgstr "Nenačítat popisná data skladeb před přehráním"
+
+#: src/libaudgui/prefs-window.cc:389 src/libaudqt/prefs-window-qt.cc:422
+msgid "Probe content of files with no recognized file name extension"
+msgstr "Prozkoumat obsah souborů, u kterých není rozeznána přípona souboru"
+
+#: src/libaudgui/prefs-window.cc:391 src/libaudqt/prefs-window-qt.cc:424
+msgid "<b>Miscellaneous</b>"
+msgstr "<b>Různé</b>"
+
+#: src/libaudgui/prefs-window.cc:392 src/libaudqt/prefs-window-qt.cc:425
+msgid "Step forward/backward by:"
+msgstr "Krok vpřed/zpět pomocí:"
+
+#: src/libaudgui/prefs-window.cc:394 src/libaudqt/prefs-window-qt.cc:426
+msgid "seconds"
+msgstr "sekund"
+
+#: src/libaudgui/prefs-window.cc:395 src/libaudqt/prefs-window-qt.cc:427
+msgid "Adjust volume by:"
+msgstr "Přizpůsobit hlasitost pomocí:"
+
+#: src/libaudgui/prefs-window.cc:397 src/libaudqt/prefs-window-qt.cc:428
+msgid "percent"
+msgstr "procento"
+
+#: src/libaudgui/prefs-window.cc:416 src/libaudqt/prefs-window-qt.cc:449
+msgid "TITLE"
+msgstr "NÁZEV"
+
+#: src/libaudgui/prefs-window.cc:417 src/libaudqt/prefs-window-qt.cc:450
+msgid "TITLE - ARTIST"
+msgstr "NÁZEV - UMĚLEC"
+
+#: src/libaudgui/prefs-window.cc:418 src/libaudqt/prefs-window-qt.cc:451
+msgid "TITLE - ARTIST - ALBUM"
+msgstr "NÁZEV - UMĚLEC - ALBUM"
+
+#: src/libaudgui/prefs-window.cc:419 src/libaudqt/prefs-window-qt.cc:452
+msgid "ARTIST - TITLE"
+msgstr "UMĚLEC – NÁZEV"
+
+#: src/libaudgui/prefs-window.cc:420 src/libaudqt/prefs-window-qt.cc:453
+msgid "ARTIST - ALBUM - TITLE"
+msgstr "UMĚLEC – ALBUM – NÁZEV"
+
+#: src/libaudgui/prefs-window.cc:421 src/libaudqt/prefs-window-qt.cc:454
+msgid "ARTIST - ALBUM - TRACK. TITLE"
+msgstr "UMĚLEC – ALBUM – STOPA. NÁZEV"
+
+#: src/libaudgui/prefs-window.cc:422 src/libaudqt/prefs-window-qt.cc:455
+msgid "ARTIST [ ALBUM ] - TRACK. TITLE"
+msgstr "UMĚLEC [ ALBUM ] – STOPA. NÁZEV"
+
+#: src/libaudgui/prefs-window.cc:423 src/libaudqt/prefs-window-qt.cc:456
+msgid "ARTIST - ALBUM - DISC.TRACK. TITLE"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:424 src/libaudqt/prefs-window-qt.cc:457
+msgid "ARTIST [ ALBUM ] - DISC.TRACK. TITLE"
+msgstr ""
+
+#: src/libaudgui/prefs-window.cc:425 src/libaudqt/prefs-window-qt.cc:458
+msgid "ALBUM - TITLE"
+msgstr "ALBUM – NÁZEV"
+
+#: src/libaudgui/prefs-window.cc:523
+msgid "Category"
+msgstr "Kategorie"
+
+#: src/libaudgui/prefs-window.cc:579 src/libaudqt/prefs-window-qt.cc:475
+msgid "Custom"
+msgstr "Vlastní"
+
+#: src/libaudgui/prefs-window.cc:597 src/libaudqt/prefs-window-qt.cc:467
+msgid "Title format:"
+msgstr "Formát názvu:"
+
+#: src/libaudgui/prefs-window.cc:598 src/libaudqt/prefs-window-qt.cc:478
+msgid "Custom string:"
+msgstr "Vlastní řetězec:"
+
+#: src/libaudgui/prefs-window.cc:820 src/libaudqt/prefs-window-qt.cc:787
+#, c-format
+msgid "Enable audio stream recording with %s"
+msgstr "Povolit nahrávání zvukových proudů pomocí %s"
+
+#: src/libaudgui/prefs-window.cc:829 src/libaudqt/prefs-window-qt.cc:800
+msgid "No audio recording plugin available"
+msgstr "Žádný modul na nahrávání zvuku není dostupný"
+
+#: src/libaudgui/prefs-window.cc:890 src/libaudqt/prefs-window-qt.cc:660
+msgid "Audacious Settings"
+msgstr "Nastavení Audacious"
+
+#: src/libaudgui/preset-browser.cc:53 src/libaudgui/util.cc:199
+#: src/libaudqt/fileopener.cc:125
+msgid "Cancel"
+msgstr "Zruš"
+
+#: src/libaudgui/preset-browser.cc:54 src/libaudqt/eq-preset-qt.cc:299
+msgid "Save"
+msgstr "Ulož"
+
+#: src/libaudgui/preset-browser.cc:54 src/libaudqt/eq-preset-qt.cc:261
+msgid "Load"
+msgstr "Nahraj"
+
+#: src/libaudgui/preset-browser.cc:85 src/libaudqt/eq-preset-qt.cc:257
+msgid "Load Preset File"
+msgstr "Nahraj předvolby"
+
+#: src/libaudgui/preset-browser.cc:99
+msgid "Load EQF File"
+msgstr "Nahraj EQF soubor"
+
+#: src/libaudgui/preset-browser.cc:114 src/libaudqt/eq-preset-qt.cc:294
+msgid "Save Preset File"
+msgstr "Ulož předvolby"
+
+#: src/libaudgui/preset-browser.cc:131
+msgid "Save EQF File"
+msgstr "Ulož EQF soubor"
+
+#: src/libaudgui/queue-manager.cc:175 src/libaudqt/queue-manager-qt.cc:347
+msgid "Queue Manager"
+msgstr "Správce fronty"
+
+#: src/libaudgui/queue-manager.cc:194 src/libaudqt/queue-manager-qt.cc:329
+msgid "_Unqueue"
+msgstr "_Vyřadit z fronty"
+
+#: src/libaudgui/status.cc:37
+msgid "Working ..."
+msgstr "Pracuje..."
+
+#: src/libaudgui/status.cc:87 src/libaudqt/log-inspector.cc:226
+msgid "Error"
+msgstr "Chyba"
+
+#: src/libaudgui/status.cc:92
+msgid "Information"
+msgstr "Informace"
+
+#: src/libaudgui/url-opener.cc:59 src/libaudqt/url-opener-qt.cc:41
+msgid "_Save to history"
+msgstr "_Uložit do historie"
+
+#: src/libaudgui/url-opener.cc:67 src/libaudqt/url-opener-qt.cc:47
+msgid "Open URL"
+msgstr "Otevřít URL"
+
+#: src/libaudgui/url-opener.cc:73 src/libaudqt/url-opener-qt.cc:53
+msgid "Add URL"
+msgstr "Přidat URL"
+
+#: src/libaudgui/url-opener.cc:96 src/libaudqt/url-opener-qt.cc:70
+msgid "C_lear history"
+msgstr "_Vyčistit historii"
+
+#: src/libaudgui/url-opener.cc:108 src/libaudqt/url-opener-qt.cc:63
+msgid "Enter URL:"
+msgstr "Zadejte URL:"
+
+#: src/libaudgui/util.cc:199 src/libaudqt/fileopener.cc:109
+msgid "Open"
+msgstr "Otevřít"
+
+#: src/libaudgui/util.cc:341
+msgid ""
+"\n"
+"(Further messages have been hidden.)"
+msgstr ""
+"\n"
+"(Další zprávy jsou skryty.)"
+
+#: src/libaudqt/eq-preset-qt.cc:252
+msgid "Preset files (*.preset *.eqf *.q1)"
+msgstr "Soubory s předvolbami (*.preset *.eqf *.q1)"
+
+#: src/libaudqt/eq-preset-qt.cc:347
+msgid "Revert"
+msgstr ""
+
+#: src/libaudqt/file-entry.cc:40
+msgid "Browse"
+msgstr "Procházet"
+
+#: src/libaudqt/fileopener.cc:105
+msgid "Open Folder"
+msgstr "Otevřít složku"
+
+#: src/libaudqt/fileopener.cc:106
+msgid "Add Folder"
+msgstr "Přidat složku"
+
+#: src/libaudqt/fileopener.cc:109 src/libaudqt/fileopener.cc:110
+msgid "Add"
+msgstr "Přidat"
+
+#: src/libaudqt/font-entry.cc:42
+msgid "Set Font"
+msgstr "Nastavit písmo"
+
+#: src/libaudqt/info-widget.cc:46
+msgid "<various>"
+msgstr "<various>"
+
+#: src/libaudqt/info-widget.cc:49
+msgid "Metadata"
+msgstr "Popisná data"
+
+#: src/libaudqt/info-widget.cc:58
+msgid "Composer"
+msgstr "Skladatel"
+
+#: src/libaudqt/info-widget.cc:59
+msgid "Performer"
+msgstr "Účinkující"
+
+#: src/libaudqt/info-widget.cc:60
+msgid "Recording Year"
+msgstr "Rok nahrání"
+
+#: src/libaudqt/info-widget.cc:61
+msgid "Recording Date"
+msgstr "Datum nahrání"
+
+#: src/libaudqt/info-widget.cc:62
+msgid "Publisher"
+msgstr ""
+
+#: src/libaudqt/info-widget.cc:63
+msgid "Catalog Number"
+msgstr ""
+
+#: src/libaudqt/info-widget.cc:64
+msgid "Disc Number"
+msgstr ""
+
+#: src/libaudqt/info-widget.cc:67
+msgid "Technical"
+msgstr "Technický"
+
+#: src/libaudqt/info-widget.cc:71
+msgid "Bitrate"
+msgstr "Datový tok"
+
+#: src/libaudqt/info-widget.cc:72
+msgid "Channels"
+msgstr ""
+
+#: src/libaudqt/info-widget.cc:73
+msgid "MusicBrainz ID"
+msgstr "MusicBrainz ID"
+
+#: src/libaudqt/info-widget.cc:74
+msgid "File Created"
+msgstr ""
+
+#: src/libaudqt/info-widget.cc:75
+msgid "File Modified"
+msgstr ""
+
+#: src/libaudqt/infowin-qt.cc:94
+msgid "_Revert"
+msgstr "_Vrátit"
+
+#: src/libaudqt/infowin-qt.cc:105
+msgid "Error writing tag(s)."
+msgstr "Chyba během zapisování tagu (tagů)."
+
+#: src/libaudqt/infowin-qt.cc:127
+msgid "%1 files selected"
+msgstr "%1 souborů vybráno"
+
+#: src/libaudqt/infowin-qt.cc:131
+msgid "_Save %1 files"
+msgstr "_Uložit %1 souborů"
+
+#: src/libaudqt/log-inspector.cc:152
+msgid "Level"
+msgstr "Úroveň"
+
+#: src/libaudqt/log-inspector.cc:154
+msgid "Function"
+msgstr "Funkce"
+
+#: src/libaudqt/log-inspector.cc:156
+msgid "Message"
+msgstr "Zpráva"
+
+#: src/libaudqt/log-inspector.cc:211
+msgid "Log Inspector"
+msgstr "Inspektor logů"
+
+#: src/libaudqt/log-inspector.cc:223
+msgid "Debug"
+msgstr "Ladění"
+
+#: src/libaudqt/log-inspector.cc:224
+msgid "Info"
+msgstr "Informace"
+
+#: src/libaudqt/log-inspector.cc:225
+msgid "Warning"
+msgstr "Varování"
+
+#: src/libaudqt/log-inspector.cc:237
+msgid "Cl_ear"
+msgstr "Vy_mazat"
+
+#: src/libaudqt/log-inspector.cc:250
+msgid "Log Level:"
+msgstr "Úroveň záznamu:"
+
+#: src/libaudqt/plugin-menu-qt.cc:52
+msgid "Services"
+msgstr "Služby"
+
+#: src/libaudqt/prefs-window-qt.cc:228
+msgid "Restart in GTK mode"
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:237 src/libaudqt/prefs-window-qt.cc:250
+msgid "Native"
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:238
+msgid "Dark"
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:252
+msgid "Flat"
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:253
+msgid "Flat (dark)"
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:263
+msgid "Audacious is running in Qt mode."
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:267
+msgid "GTK mode is unavailable in this build."
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:273
+msgid "Theme:"
+msgstr ""
+
+#: src/libaudqt/prefs-window-qt.cc:275
+msgid "Icon theme:"
+msgstr ""
+
+#: src/libaudqt/util-qt.cc:113
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: src/libaudqt/volumebutton.cc:165
+#, c-format
+msgid "%d%%"
+msgstr ""

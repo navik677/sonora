@@ -1,0 +1,477 @@
+
+/* =====================================================================
+   Sonora — 1:1 Reference Layout (AIMP / Audacious / DeaDBeeF style)
+   ===================================================================== */
+
+/* Global Reset */
+* {
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    font-family: "DejaVu Sans", "Liberation Sans", "Ubuntu", "Noto Sans", sans-serif;
+    font-size: 12px;
+}
+
+window {
+    background-color: @bg_base; /* Base background */
+    color: @fg_secondary;
+}
+
+/* Force standard widgets to obey our theme colors */
+button, entry, dropdown, spinbutton, button.image-button, button.text-button {
+    background-color: @bg_sidebar_btn;
+    background-image: none;
+    color: @fg_primary;
+    border: 1px solid @border_color;
+}
+button:hover, entry:focus, dropdown:focus, spinbutton:focus {
+    background-color: @bg_hover;
+}
+button:active {
+    background-color: @bg_panel;
+}
+label {
+    color: @fg_primary;
+}
+
+/* ── Top Bar ── */
+.top-bar {
+    background-color: @bg_panel;
+    border-bottom: 1px solid @border_color;
+    padding: 6px 12px;
+}
+
+.top-bar button {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    color: @fg_secondary;
+    padding: 4px;
+    margin: 0 2px;
+}
+
+.top-bar button:hover {
+    color: @fg_primary;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.top-bar button image {
+    -gtk-icon-size: 24px;
+}
+
+.prop-label {
+    color: @fg_secondary;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.prop-val {
+    color: @fg_primary;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+/* ── Left Sidebar ── */
+.left-sidebar {
+    background-color: @bg_sidebar;
+    border-right: 1px solid @border_color;
+}
+
+.sidebar-tree {
+    background-color: @bg_sidebar;
+}
+.sidebar-tree row {
+    padding: 2px 8px;
+    color: @fg_secondary;
+    border: none;
+    background-color: transparent;
+}
+.sidebar-tree row:hover {
+    background-color: @bg_hover;
+}
+.sidebar-tree row:selected {
+    background-color: @bg_panel;
+    color: @fg_primary;
+}
+.tree-icon-green {
+    color: @accent_color; /* Green library icon */
+}
+.tree-icon-white {
+    color: @fg_secondary;
+}
+
+.btn-sidebar-large {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid @border_color;
+    color: @fg_secondary;
+    font-size: 13px;
+    padding: 10px 14px;
+    background-color: @bg_sidebar_btn;
+    background-image: none;
+}
+.btn-sidebar-large:hover {
+    background-color: @bg_hover;
+    background-image: none;
+    color: @fg_primary;
+}
+.btn-sidebar-large image {
+    -gtk-icon-size: 24px;
+    margin-right: 8px;
+}
+
+/* ── Middle Column ── */
+.middle-col {
+    background-color: @border_color;
+    border-right: 1px solid @border_color;
+    padding: 12px;
+}
+
+.album-cover {
+    border: 1px solid #000000;
+}
+
+.track-props-grid {
+    margin-top: 16px;
+}
+.track-props-grid .prop-label {
+    color: #a0a0a0;
+    padding-right: 12px;
+    font-size: 10px;
+}
+.track-props-grid .prop-val {
+    color: @fg_secondary;
+    font-size: 11px;
+}
+
+.seek-bar-box {
+    margin-top: 12px;
+}
+
+/* Custom horizontal scale for seekbar */
+scale.seek-scale {
+    margin: 0;
+    padding: 0;
+}
+.seek-scale trough {
+    min-height: 4px;
+    background-color: @bg_trough;
+    border-radius: 2px;
+}
+.seek-scale highlight {
+    background-color: @accent_color;
+}
+
+.seek-scale-thin {
+    margin: 0;
+    padding: 0;
+    min-height: 2px;
+}
+.seek-scale-thin trough {
+    min-height: 2px;
+    background-color: @bg_trough;
+    border-radius: 0;
+}
+.seek-scale-thin highlight {
+    background-color: @accent_color; /* matching bright orange theme */
+}
+
+scale.seek-scale slider {
+    background-color: @accent_color;
+    min-width: 16px;
+    min-height: 16px;
+    border: none;
+    border-radius: 50%;
+}
+
+.mid-pb-controls {
+    margin-top: 8px;
+}
+.mid-pb-controls button {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    color: #aaaaaa;
+    margin: 0 4px;
+}
+.mid-pb-controls button:hover {
+    color: @fg_primary;
+}
+
+/* ── Right Column (Playlist) ── */
+.right-col {
+    background-color: @bg_list;
+}
+
+/* Stack Switcher (Tabs) */
+stackswitcher.tabs {
+    background-color: @bg_base;
+    border-bottom: 1px solid @border_color;
+}
+stackswitcher.tabs button {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #888888;
+    padding: 6px 12px;
+    font-size: 11px;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+stackswitcher.tabs button:hover {
+    color: @fg_secondary;
+}
+stackswitcher.tabs button:checked {
+    color: @fg_primary;
+    border-bottom: 2px solid @accent_color; /* Orange underline */
+    font-weight: bold;
+    background-color: transparent;
+    background-image: none;
+}
+
+/* Playlist Table */
+.playlist-header {
+    background-color: @bg_hover;
+    border-bottom: 1px solid @border_color;
+    padding: 4px 8px;
+}
+.playlist-header label {
+    color: #a0a0a0;
+    font-size: 11px;
+    padding: 4px 0;
+}
+
+list.playlist-list {
+    background-color: @bg_list;
+}
+list.playlist-list row {
+    padding: 2px 8px;
+    min-height: 20px;
+    border-bottom: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+list.playlist-list row:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.05);
+}
+list.playlist-list row:hover {
+    background-color: @bg_hover;
+}
+/* Active row outline */
+list.playlist-list row.active-row {
+    background-color: transparent;
+    border: 1px solid @accent_color; /* Orange outline */
+}
+list.playlist-list row.active-row label {
+    color: @fg_primary;
+}
+/* Selected row (when just clicked, not playing) */
+list.playlist-list row:selected {
+    background-color: @accent_color; /* Bright orange accent */
+}
+list.playlist-list row:selected .row-text {
+    color: @border_color;
+    font-weight: bold;
+}
+
+.row-text {
+    color: @fg_secondary;
+    font-size: 11px;
+}
+
+/* ── Bottom EQ Panel ── */
+/* old eq-panel replaced */
+
+.eq-btn {
+    background-color: transparent;
+    border: none;
+    color: #888888;
+    font-size: 10px;
+    padding: 2px 4px;
+}
+.eq-btn:hover {
+    color: @fg_primary;
+}
+
+.eq-label {
+    color: #888888;
+    font-size: 9px;
+}
+
+/* Vertical slider (EQ) */
+scale.eq-slider trough {
+    background-color: @accent_color; /* Orange for the top (unfilled) part */
+    min-width: 2px;
+    border: none;
+    border-radius: 0;
+}
+scale.eq-slider highlight {
+    background-color: #1e70a8; /* Blue for the bottom (filled) part */
+    min-width: 2px;
+    border: none;
+    border-radius: 0;
+}
+scale.eq-slider slider {
+    background-color: #707070;
+    min-width: 14px;
+    min-height: 10px;
+    border: none;
+    border-radius: 0;
+    margin: -4px -6px;
+}
+scale.eq-slider slider:hover {
+    background-color: #a0a0a0;
+}
+
+/* Scrollbars */
+scrollbar slider {
+    min-width: 6px;
+    min-height: 6px;
+    border-radius: 4px;
+    background-color: alpha(@fg_primary, 0.3);
+}
+scrollbar slider:hover {
+    background-color: alpha(@accent_color, 0.8);
+}
+
+/* ── YouTube Search Results ── */
+.yt-list {
+    background-color: @bg_surface;
+    border-radius: 4px;
+}
+.yt-list > row {
+    border-bottom: 1px solid alpha(currentColor, 0.1);
+}
+.yt-list > row:last-child {
+    border-bottom: none;
+}
+.yt-list > row:hover {
+    background-color: alpha(@accent_color, 0.1);
+}
+.yt-title {
+    color: @fg_primary;
+    font-weight: bold;
+    font-size: 13px;
+}
+.yt-sub {
+    color: #a0a0a0;
+    font-size: 11px;
+}
+
+/* Scrollbars */
+scrollbar trough { background-color: @bg_sidebar; }
+scrollbar slider { background-color: @bg_trough; min-width: 6px; }
+scrollbar slider:hover { background-color: #606060; }
+
+.dsp-panel {
+    padding: 8px;
+    border-top: 1px solid alpha(currentColor, 0.1);
+}
+.eq-label-small {
+    color: #b0b0b0;
+    font-size: 11px;
+    padding-top: 4px;
+}
+
+/* Volume Scale */
+scale.volume-scale trough {
+    background-color: #3a3a3a;
+    min-height: 4px;
+    border: none;
+    border-radius: 2px;
+}
+scale.volume-scale highlight {
+    background-color: @accent_color;
+    border-radius: 2px;
+}
+scale.volume-scale slider {
+    background-color: #888888;
+    min-width: 10px;
+    min-height: 10px;
+    border: none;
+    border-radius: 2px;
+    margin: -3px 0;
+}
+
+.eq-btn-audacious {
+    background-color: #4a4a4a;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    color: @fg_secondary;
+    padding: 2px 6px;
+    font-size: 10px;
+    margin-right: 4px;
+}
+.eq-btn-audacious:hover {
+    background-color: #555555;
+}
+
+scale.eq-slider-audacious trough {
+    background-color: alpha(currentColor, 0.1);
+    min-width: 2px;
+    border-radius: 1px;
+    border: none;
+}
+scale.eq-slider-audacious highlight {
+    background-color: @accent_color;
+    min-width: 2px;
+    border-radius: 1px;
+    border: none;
+}
+scale.eq-slider-audacious slider {
+    background-color: @accent_color;
+    min-width: 16px;
+    min-height: 6px;
+    border: none;
+    border-radius: 1px;
+    margin: -2px -7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+scale.eq-slider-audacious slider:hover {
+    background-color: mix(@accent_color, #ffffff, 0.2);
+}
+
+.eq-label-rotated {
+    color: @fg_secondary;
+    font-size: 10px;
+    transform: rotate(-90deg);
+    min-height: 40px;
+    min-width: 16px;
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+.eq-val-label {
+    color: #888888;
+    font-size: 10px;
+    padding: 4px;
+    min-height: 16px;
+}
+
+.album-cover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255,255,255, 0.05);
+    background-color: @bg_panel;
+}
+
+checkbutton check:checked {
+    background-color: @accent_color;
+    border-color: @accent_color;
+    color: #ffffff;
+}
+checkbutton check:checked:hover {
+    background-image: image(rgba(255, 255, 255, 0.1));
+}
+
+
+checkbutton check:checked,
+checkbutton check:checked:hover,
+checkbutton check:checked:active {
+    background-image: none;
+    background-color: @accent_color;
+    border-color: @accent_color;
+    color: #ffffff;
+}
+
+

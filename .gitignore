@@ -1,0 +1,46 @@
+# Compiled object files
+*.o
+obj/
+
+# Build artifacts
+sonora
+Sonora-*.AppImage
+a.out
+
+# AppImage build directories
+AppDir/
+squashfs-root/
+
+# Patches and backups
+*.patch
+*.orig
+
+# Logs and temporary files
+*.log
+appimage.log
+
+# Music library
+music/
+
+# Test files
+test_*
+run_test*
+test.mp3
+test.wav
+test_cover.jpg
+
+# Static binaries and downloaded tools
+jq_static
+ffmpeg*
+linuxdeploy*
+yt-dlp*
+
+# Database
+sonora.db
+
+# Scripts
+*.py
+
+# Caches and external downloads
+audacious-plugins-master/
+covers/

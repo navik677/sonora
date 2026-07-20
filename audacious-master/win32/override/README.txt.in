@@ -1,0 +1,92 @@
+Audacious @PACKAGE_VERSION@ for Windows
+
+    https://audacious-media-player.org
+
+Audacious is free and open source software.  By installing Audacious, you agree
+to be bound by various licenses governing its use and redistribution.
+
+Build ID: @BUILDSTAMP@
+
+LICENSE
+
+@COPYRIGHT@
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions, and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions, and the following disclaimer in the documentation
+   provided with the distribution.
+
+This software is provided "as is" and without any warranty, express or
+implied.  In no event shall the authors be liable for any damages arising
+from the use of this software.
+
+EXCEPTIONS
+
+Audacious includes icons adapted from the Paper Icon Set by Sam Hewitt.  These
+icons are distributed under the Creative Commons Attribution-ShareAlike 4.0
+license (see https://creativecommons.org/licenses/by-sa/4.0/).
+
+Please note that many of the plugins distributed with Audacious are under
+different licenses, whose full text may be found either in the "About" window
+of each plugin or in the source code.
+
+Audacious would not exist without the efforts of numerous other free and open
+source software projects, which are listed below.  By installing Audacious, you
+also agree to all relevant licenses governing these projects.  The source code
+and license of each project can be found on the Internet.
+
+    Project          Website
+    -------          -------
+
+    MSYS2            https://www.msys2.org
+    GNU libc         https://www.gnu.org/software/libc
+    GNU libstdc++    https://gcc.gnu.org
+    GNU gettext      https://www.gnu.org/software/gettext
+    GNU libiconv     https://www.gnu.org/software/libiconv
+    zlib             https://zlib.net
+    libpng           https://libpng.org/pub/png/libpng.html
+    libjpeg-turbo    https://libjpeg-turbo.org
+    libffi           https://sourceware.org/libffi
+    GLib             https://docs.gtk.org/glib
+    JSON-GLib        https://gnome.pages.gitlab.gnome.org/json-glib
+    Pixman           https://pixman.org
+    Cairo            https://cairographics.org
+    Pango            https://www.pango.org
+    GDK-Pixbuf       https://docs.gtk.org/gdk-pixbuf
+    ATK              https://docs.gtk.org/atk
+    GTK              https://gtk.org
+    Qt               https://www.qt.io
+    libguess         https://github.com/kaniini/libguess
+    libxml2          https://gitlab.gnome.org/GNOME/libxml2
+    mpg123           https://mpg123.de
+    FAAD2            https://github.com/knik0/faad2
+    libsndfile       https://libsndfile.github.io/libsndfile
+    bs2b             https://bs2b.sourceforge.net
+    GNU libcdio      https://github.com/libcdio/libcdio
+    libcddb          https://libcddb.sourceforge.net
+    libcue           https://github.com/lipnitsk/libcue
+    LAME             https://lame.sourceforge.io
+    libflac          https://xiph.org/flac
+    libogg           https://xiph.org/ogg
+    libvorbis        https://xiph.org/vorbis
+    neon             https://notroj.github.io/neon
+    libsamplerate    https://libsndfile.github.io/libsamplerate
+    WavPack          https://wavpack.com
+    FFmpeg           https://ffmpeg.org
+    ModPlug          https://modplug-xmms.sourceforge.net
+    AdPlug           https://adplug.github.io
+    libmms           https://sourceforge.net/projects/libmms
+    libsidplayfp     https://github.com/libsidplayfp/libsidplayfp
+    FluidSynth       https://www.fluidsynth.org
+    OpenMPT          https://openmpt.org
+    Opus             https://opus-codec.org
+
+If you are an author of one of these projects and do not wish your software
+included with Audacious in binary form, please contact us via the support forum:
+
+    https://github.com/orgs/audacious-media-player/discussions
