@@ -2230,7 +2230,7 @@ void ui_init(GtkApplication *app) {
 
     // Main Window
     main_window = gtk_application_window_new(app);
-    gtk_window_set_title(GTK_WINDOW(main_window), "AIMP / Audacious Player v1.3");
+    gtk_window_set_title(GTK_WINDOW(main_window), "Sonora");
     gtk_window_set_default_size(GTK_WINDOW(main_window), 1060, 640);
     
     GtkEventController *key_ctrl = gtk_event_controller_key_new();
