@@ -11,6 +11,11 @@ Sonora is a beautiful, modern audio player written in C and GTK4. It is designed
 - **Visualizer**: Real-time audio visualization using PulseAudio.
 - **Modern UI**: Dark-themed GTK4 interface with album cover extraction and caching.
 
+## Screenshots
+<img width="1861" height="1058" alt="image" src="https://github.com/user-attachments/assets/78e64390-1c6e-4a2f-97b4-11cb67a04e20" />
+<img width="1857" height="1054" alt="image" src="https://github.com/user-attachments/assets/a8086167-ac3c-4ee4-b600-60de2aae79b2" />
+
+
 ## Dependencies
 
 To compile Sonora, you need the following development libraries:
